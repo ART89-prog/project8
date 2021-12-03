@@ -290,39 +290,41 @@ $(function(){
 
 
 	// Сотрудники
-	$('.team .slider').owlCarousel({
-		items: 1,
-		margin: 73,
-		nav: true,
+	var owl4=$('.team .slider').owlCarousel({
+		items: 2,
+		margin: 26,
+		nav: false,
 		dotsEach : true,
 		dots: false,
 		loop: false,
-	navText: [
-		'<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.59577 6.35904L6.41677 10.18C6.83077 10.594 6.83077 11.266 6.41677 11.68C6.00277 12.094 5.33077 12.094 4.91677 11.68L0.302771 7.06604C-0.0882285 6.67504 -0.0882285 6.04204 0.302771 5.65204L4.91677 1.03804C5.33077 0.624039 6.00277 0.624039 6.41677 1.03804C6.83077 1.45204 6.83077 2.12404 6.41677 2.53804L2.59577 6.35904Z"/></svg>',				
-		'<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.40423 6.35904L0.583229 10.18C0.169229 10.594 0.169229 11.266 0.583229 11.68C0.997229 12.094 1.66923 12.094 2.08323 11.68L6.69723 7.06604C7.08823 6.67504 7.08823 6.04204 6.69723 5.65204L2.08323 1.03804C1.66923 0.624039 0.997229 0.624039 0.583229 1.03804C0.169229 1.45204 0.169229 2.12404 0.583229 2.53804L4.40423 6.35904Z"/></svg>'
-	        
-	    ],
 		smartSpeed: 750,
 		responsive: {
 	        0:{
 	            items: 1,
-	            margin: 0
+	            margin: 26
 	        },
 	        768:{
 	            items: 2,
-	            margin: 0
+	            margin: 26
 	        },
 	        1024:{
 	            items: 2,
-	            margin: 0
+	            margin: 26
 	        },
 	        1200:{
-	            items: 3,
-	            margin: 0
+	            items: 2,
+	            margin: 26
 	        }
 		},
 		
 	})
+
+	$(".next").click(function(){
+		owl4.trigger("next.owl.carousel");
+	});
+	$(".prev").click(function(){
+		owl4.trigger("prev.owl.carousel");
+	});
 
 
 	// Вакансии

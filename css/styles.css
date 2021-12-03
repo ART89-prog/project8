@@ -421,16 +421,13 @@ body.lock
 {
     color: #7B7B7C;
     font: var( --font_size) var(--font_family);
-
     display: block;
-
     box-sizing: border-box;
     width: 100%;
     height: 67px;
     padding: 0 22px;
     transition: .2s linear;
     background: #FFFFFF;
-    box-shadow: 0px 11px 47px rgba(0, 0, 0, 0.123801);
     border: none;
 }
 
@@ -438,18 +435,13 @@ body.lock
 {
     color: #7B7B7C;
     font: var(--font_size)/30px var(--font_family);
-
     display: block;
-
     width: 100%;
     height: 132px;
     padding: 7px 22px;
-
     resize: none;
     transition: .2s linear;
-
     background: #FFFFFF;
-    box-shadow: 0px 11px 47px rgba(0, 0, 0, 0.123801);
     border: none;
 }
 
@@ -2770,7 +2762,6 @@ aside > *:last-child
 }
 .reviews_top {
     width: 382px;
-    margin-left: 147px;
     margin-right: 90px;
 }
 
@@ -3454,7 +3445,7 @@ aside > *:last-child
     max-width: 100%;
     position: relative;
     background: #fff;
-    padding: 72px 63px;
+    padding: 72px 20px 72px 63px;
     margin-left: -126px;
     position: relative;
 }
@@ -3467,6 +3458,7 @@ aside > *:last-child
     top: 0;
     right: -100%;
     background: #fff;
+    box-shadow: 0px -247px 47px rgb(0 0 0 / 0%);
 }
 .director_letter .img
 {
@@ -3859,59 +3851,51 @@ aside > *:last-child
         text-align: CENTER;
 }
 
+
+
+
 .team .cont
 {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-
-.team .owl-carousel .owl-stage-outer
-{
-    overflow: inherit;
-}
-.team .slider
-{
-    margin-top: 50px;
-    padding-bottom: 73px;
-}
-
+/* .team .slide {
+    display: flex;
+    flex-direction: column;
+} */
 .team .owl-item
 {
     visibility: hidden;
-
     transition: .2s linear;
     pointer-events: none;
-
     opacity: 0;
 }
-
 .team .owl-item.active
 {
     visibility: visible;
-
     pointer-events: auto;
-
     opacity: 1;
 }
 .team .item
 {
-    background: #FAFAFA;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    margin-bottom: 39px;
+    max-width: 287px;
+    width: 100%;
 }
-
-.team .item .info{
-    padding:40px;
-}
-
 .team .item .foto
 {
     position: relative;
-    z-index: 1;
-    width: 100%;
-    padding-bottom: 100%;
+    width: 68px;
+    height: 71px;
     flex-shrink: 0;
+    margin-right: 19px;
 }
-
-
 .team .item .foto img
 {
     position: absolute;
@@ -3923,42 +3907,25 @@ aside > *:last-child
     height: 100%;
     object-fit: cover;
 }
-
 .team .item .name
 {
     font-family: var(--font_family);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 35px;
-    text-align: center;
-    color: #27242B;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 3px;
 }
-
 .team .item .post
 {
-margin-top: 14px;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 12px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: var(--main_color2);
-    text-transform: uppercase;
+    line-height: 22px;
+    color: #646464;
 }
 
-.team .item .desc
-{
-    margin-top: 15px;
-   
-    text-align: center;
-      color: #979797;
-}
 
-.team .item .box_team_item
-{
-    display: flex;
-}
+
 
 .ads_block .flex
 {
@@ -5802,7 +5769,7 @@ color: var(--main_color1);
     align-items: flex-start;
     align-content: flex-start;
     flex-wrap: wrap;
-    padding: 81px 0 88px 61px;   
+    padding: 81px 20px 88px 61px;   
 }
 .upload .cont:before {
     width: 196px;
@@ -5862,6 +5829,12 @@ color: var(--main_color1);
     border: none;
     text-transform: inherit;
     letter-spacing: 0px;
+}
+.upload .form input {
+    box-shadow: 0px 11px 47px rgba(0, 0, 0, 0.123801);
+}
+.upload .form textarea {
+    box-shadow: 0px 11px 47px rgba(0, 0, 0, 0.123801);
 }
 .upload .form input[type=file] + label svg {
     margin-left: 6px;
@@ -6691,16 +6664,14 @@ color: var(--main_color1);
     object-fit: cover;
 }
 
+
+.quiz_poll .quiz_poll-wrapper {
+    display: flex;
+    
+}
 .quiz_poll .cont
 {
-    position: relative;
 
-    display: flex;
-
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
 }
 
 .quiz_poll .img:after

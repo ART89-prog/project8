@@ -739,81 +739,163 @@
 				</section>
 
 
-
 				<section class="contacts_block block">
 					<div class="cont">
 
-						<div class="block_head">
-							<div class="title">Наши Контакты</div>
-						</div>
-
 						<div class="info2">	
-							<div class="map">
-								<div>
-									<iframe width="100%" height="500" class="lozad" data-src="https://maps.google.com/maps?width=100&amp;height=500&amp;hl=ru&amp;q=%D0%92%D0%BE%D0%BB%D0%B6%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%D0%B0%2036%20%D0%BF&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+							<div class="info">
+								<div class="block_head">
+									<div class="title">Наши Контакты</div>
+									<div class="desc">Узнайте, какими способами с нами можно связаться</div>
+								</div>
+
+								<div class="contacts">
+									<div class="phone">
+										<div class="phone_img">
+											<img src="images/ic_phone2.svg" alt="">
+										</div>
+										<div class="phone_box">
+											<a href="tel:79211767223" class="val">+7 (921) 176-72-23</a>
+											<div class="exp">Наш телефон</div>	
+										</div>
+									</div>
+
+									<div class="email">
+										<div class="email_img">
+											<img src="images/ic_email.svg" alt="">
+										</div>
+										<div class="email_box">
+											<a href="mailto:natalya.krepel@mail.ru" class="val">natalya.krepel@mail.ru</a>
+											<div class="exp">Наша электронная почта</div>	
+										</div>
+									</div>
+								
+									<div class="adres">
+										<div class="adres_img">
+											<img src="images/ic_marker.svg" alt="">
+										</div>
+										<div class="adres_box">
+											<div class="val">г. Волгоград, улица Ленина, дом 17, корпус 3, офис 5</div>
+											<div class="exp">Наш адрес</div>	
+										</div>
+									</div>
 								</div>
 							</div>
-
-
-							<div class="info">
-								<div class="contacts">
-									<div>Связь с нами:</div>
-
-									<div class="val">
-										<a href="tel:88001231213" class="phone">8 800 123-12-13</a>
-										<!-- <div class="exp">Бесплатный звонок по России</div> -->
-									</div>
-
-									<div class="val">
-										<a href="mailto:info@gmail.com" class="email">info@gmail.com</a>
-										<div class="exp">Наша электронная почта</div>
-									</div>
-								</div>
-
-
-								<div class="adres">
-									<div>Наш адрес:</div>
-
-									<div class="val">г. Волгоград, ул. Ленина, 31, офис 5</div>
+							
+							<div class="map">
+								<div>
+									<iframe width="100%" height="666" class="lozad" data-src="https://maps.google.com/maps?width=100&amp;height=666&amp;hl=ru&amp;q=%D0%92%D0%BE%D0%BB%D0%B6%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%D0%B0%2036%20%D0%BF&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 								</div>
 							</div>
 						</div>					
-					
-
 					</div>
 				</section>
 
 
-				<section class="about block">
+
+				<section class="team block">
 					<div class="cont">
 
-						<div class="img">
-							<div class="lozad" data-background-image="images/tmp/about_img.jpg"></div>
-						</div>
+						<div class="slider owl-carousel">
+							
+							<div class="slide">
+								<div class="item">
+									<div class="foto">
+										<img data-src="images/tmp/team1.jpg" alt="" class="lozad">
+									</div>
+									<div class="info">
+										<div class="name">Иван Петрович</div>
+										<div class="post">Менеджер по продажам</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="foto">
+										<img data-src="images/tmp/team2.jpg" alt="" class="lozad">
+									</div>
+									<div class="info">
+										<div class="name">Мария Иванова</div>
+										<div class="post">Менеджер по продажам</div>
+									</div>
+								</div>
+							</div>
 
-						<div class="info">
-							<div class="block_head">
-								<div class="title">Узнайте немного<br> о нашей компании</div>						
-							</div>				
-						
-							<div class="text_block">
-								<p>
-								Аутотренинг просветляет код. Кризис, несмотря на внешние воздействия, неустойчив. Конечно, нельзя не принять во внимание тот факт, что психоанализ абсурдно отталкивает психоанализ. Сознание, как бы это ни казалось парадоксальным, отражает интеракционизм, тем не менее как только ортодоксальность окончательно возобладает.
-								</p>
-								<p class="fw700">
-									Когнитивная составляющая, иcходя из того, что параллельна. В связи с этим нужно подчеркнуть, что личность параллельна.
-								</p>
+							<div class="slide">
+								<div class="item">
+									<div class="foto">
+										<img data-src="images/tmp/team3.jpg" alt="" class="lozad">
+									</div>
+									<div class="info">
+										<div class="name">Сергей Дмитриев</div>
+										<div class="post">Директор</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="foto">
+										<img data-src="images/tmp/team4.jpg" alt="" class="lozad">
+									</div>
+									<div class="info">
+										<div class="name">Василий Конов</div>
+										<div class="post">Директор</div>
+									</div>
+								</div>
+							</div>
 
-								<a href="/" class="link">
-									Позвонить Нам									
-									<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M9.12247 0C8.97342 0 8.82421 0.0597364 8.71062 0.1772L8.66056 0.228835C8.43279 0.463763 8.43279 0.844131 8.66056 1.07846L10.911 3.39966H0.582515C0.260967 3.39966 0 3.66884 0 4.0005C0 4.33216 0.260967 4.60134 0.582515 4.60134H10.911L8.66056 6.92255C8.43279 7.15747 8.43279 7.53784 8.66056 7.77217L8.71062 7.8238C8.93838 8.05873 9.30715 8.05873 9.53433 7.8238L12.8292 4.42531C13.0569 4.19039 13.0569 3.81002 12.8292 3.57569L9.53433 0.1772C9.42045 0.0597364 9.27152 0 9.12247 0Z" fill="white"/>
-									</svg>
-								</a>
+							<div class="slide">
+								<div class="item">
+									<div class="foto">
+										<img data-src="images/tmp/team1.jpg" alt="" class="lozad">
+									</div>
+									<div class="info">
+										<div class="name">Иван Петрович</div>
+										<div class="post">Менеджер по продажам</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="foto">
+										<img data-src="images/tmp/team2.jpg" alt="" class="lozad">
+									</div>
+									<div class="info">
+										<div class="name">Мария Иванова</div>
+										<div class="post">Менеджер по продажам</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<div class="foto">
+										<img data-src="images/tmp/team3.jpg" alt="" class="lozad">
+									</div>
+									<div class="info">
+										<div class="name">Сергей Дмитриев</div>
+										<div class="post">Директор</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="foto">
+										<img data-src="images/tmp/team4.jpg" alt="" class="lozad">
+									</div>
+									<div class="info">
+										<div class="name">Василий Конов</div>
+										<div class="post">Директор</div>
+									</div>
+								</div>
 							</div>
 						</div>
+
+						<div class="block_head">
+							<div class="title">Наши cотрудники</div>
+							<div class="desc">У нас работает несколько десятков профессионалов, которые делают свою работу на высшем уровне</div>
+							<div class="owl-nav-custom">
+								<button type="button" role="presentation" class="prev"><svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.59577 6.35904L6.41677 10.18C6.83077 10.594 6.83077 11.266 6.41677 11.68C6.00277 12.094 5.33077 12.094 4.91677 11.68L0.302771 7.06604C-0.0882285 6.67504 -0.0882285 6.04204 0.302771 5.65204L4.91677 1.03804C5.33077 0.624039 6.00277 0.624039 6.41677 1.03804C6.83077 1.45204 6.83077 2.12404 6.41677 2.53804L2.59577 6.35904Z"></path></svg></button>
+								<button type="button" role="presentation" class="next"><svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.40423 6.35904L0.583229 10.18C0.169229 10.594 0.169229 11.266 0.583229 11.68C0.997229 12.094 1.66923 12.094 2.08323 11.68L6.69723 7.06604C7.08823 6.67504 7.08823 6.04204 6.69723 5.65204L2.08323 1.03804C1.66923 0.624039 0.997229 0.624039 0.583229 1.03804C0.169229 1.45204 0.169229 2.12404 0.583229 2.53804L4.40423 6.35904Z"></path></svg></button>
+							</div>	
+						</div>
+
 					</div>
 				</section>
+
+				
 
 
 				<section class="how_we_work block">
@@ -1222,158 +1304,9 @@
 				</section>		
 
 
-				<section class="contacts_block block">
-					<div class="cont">
-
-						<div class="info2">	
-							<div class="info">
-								<div class="block_head">
-									<div class="title">Наши Контакты</div>
-									<div class="desc">Узнайте, какими способами с нами можно связаться</div>
-								</div>
-
-								<div class="contacts">
-									
-									<div class="phone">
-										<div class="phone_img">
-											<img src="images/ic_phone2.svg" alt="">
-										</div>
-										<div class="phone_box">
-											<a href="tel:79211767223" class="val">+7 (921) 176-72-23</a>
-											<div class="exp">Наш телефон</div>	
-										</div>
-									</div>
-
-									<div class="email">
-										<div class="email_img">
-											<img src="images/ic_email.svg" alt="">
-										</div>
-										<div class="email_box">
-											<a href="mailto:natalya.krepel@mail.ru" class="val">natalya.krepel@mail.ru</a>
-											<div class="exp">Наша электронная почта</div>	
-										</div>
-									</div>
-								
-									<div class="adres">
-										<div class="adres_img">
-											<img src="images/ic_marker.svg" alt="">
-										</div>
-										<div class="adres_box">
-											<div class="val">г. Волгоград, улица Ленина, дом 17, корпус 3, офис 5</div>
-											<div class="exp">Наш адрес</div>	
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<div class="map">
-								<div>
-									<iframe width="100%" height="666" class="lozad" data-src="https://maps.google.com/maps?width=100&amp;height=666&amp;hl=ru&amp;q=%D0%92%D0%BE%D0%BB%D0%B6%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%D0%B0%2036%20%D0%BF&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-								</div>
-							</div>
-						</div>					
-					
-
-					</div>
-				</section>
-
-
 
 				
-				<section class="team block">
-					<div class="cont">
-
-						<div class="block_head">
-							<div class="title">Наши Сотрудники</div>
-							<div class="desc">Выгодное расположение в непосредственной близости от жилых домов Широкий товарный ассортимент, удовлетворяющий любым требованиям покупателей. Широкий товарный ассортимент, удовлетворяющий любым требованиям покупателей.</div>
-						</div>
-
-
-						<div class="slider owl-carousel">
-							
-							<div class="slide">
-								<div class="item">
-									
-									<div class="foto">
-										<img data-src="images/tmp/about_img.jpg" alt="" class="lozad">
-									</div>
-
-									<div class="info">
-									
-										<div class="name">Ирина Петрова Ирина Петрова Ирина Петрова Ирина Петрова</div>
-										<div class="post">Генеральный директор</div>
-																	
-
-										<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius suscipit repellat, illum itaque eum maxime excepturi dolorum tenetur rem in?</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="slide">
-								<div class="item">
-									
-									<div class="foto">
-										<img data-src="images/tmp/about_img.jpg" alt="" class="lozad">
-									</div>
-									<div class="info">	
-									<div class="name">Ирина Петрова Ирина Петрова Ирина Петрова Ирина Петрова</div>
-									<div class="post">Генеральный директор</div>
-																
-
-									<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo cum ad iusto reiciendis suscipit vero aperiam similique voluptates molestiae, dolores distinctio, minima magni id minus fuga, facilis aspernatur ducimus alias!</div></div>
-								</div>
-							</div>
-
-							<div class="slide">
-								<div class="item">
-									
-									<div class="foto">
-										<img data-src="images/tmp/about_img.jpg" alt="" class="lozad">
-									</div>
-									<div class="info">
-									<div class="name">Ирина Петрова Ирина Петрова Ирина Петрова Ирина Петрова</div>
-									<div class="post">Генеральный директор</div>
-																
-
-									<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius suscipit repellat, illum itaque eum maxime excepturi dolorum tenetur rem in?</div></div>
-								</div>
-							</div>
-
-							<div class="slide">
-								<div class="item">
-									
-									<div class="foto">
-										<img data-src="images/tmp/about_img.jpg" alt="" class="lozad">
-									</div>
-									<div class="info">
-									<div class="name">Ирина Петрова Ирина Петрова Ирина Петрова Ирина Петрова</div>
-									<div class="post">Генеральный директор</div>
-																
-
-									<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius suscipit repellat, illum itaque eum maxime excepturi dolorum tenetur rem in?</div></div>
-								</div>
-							</div>
-
-							<div class="slide">
-								<div class="item">
-									
-									<div class="foto">
-										<img data-src="images/tmp/about_img.jpg" alt="" class="lozad">
-									</div>
-									<div class="info">
-										<div class="name">Ирина Петрова Ирина Петрова Ирина Петрова Ирина Петрова</div>
-										<div class="post">Генеральный директор</div>
-																	
-
-										<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius suscipit repellat, illum itaque eum maxime excepturi dolorum tenetur rem in?</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-				</section>
+				
 
 
 				<section class="stocks block">
@@ -2090,139 +2023,83 @@
 
 				<section class="quiz_poll block">
 					<div class="cont">
+						<div class="block_head">
+							<div class="title">Пройдите Квиз</div>
+							<div class="desc">Выгодное расположение в непосредственной близости от жилых домов.<br>  
+								Широкий товарный ассортимент, удовлетворяющий любым требованиям покупателей</div>
+						</div>
 
-						<div class="info">
-							<div class="block_head">
-								<div class="title">Пройдите Квиз-Опрос</div>
+						<div class="quiz_poll-wrapper">
+
+							<div class="img">
+								<div class="lozad" data-background-image="images/tmp/big_boss_quote_img.jpg"></div>
 							</div>
 
+							<div class="info">
+								<form class="steps">
 
-							<form class="steps">
-								<div class="step step1">
-									<div class="title">Заголовок Опроса</div>
-
-									<div class="desc">Торговая сеть «Перекресток» открыла 800-й супермаркет. Им стал второй экспериментальный магазин</div>
-								
-
-									<div class="links">
-										<button class="next" data-step=".step2">
-											Начать 
-										</button>
+									<div class="step step1">
+										<div class="title">Название опроса</div>
+										<div class="desc">Выгодное расположение в непосредственной близости от жилых домов.<br>  
+											Широкий товарный ассортимент, удовлетворяющий любым требованиям покупателей</div>
+									
+										<div class="form">
+											<div class="agree">
+												<input type="checkbox" name="agree" id="quiz_poll_agree_check" checked>
+												<label for="quiz_poll_agree_check">Согласен с политикой обработки данных
+													<i><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.9132 1.82809L15.3754 0.744931C14.9499 0.446366 14.367 0.560932 14.0822 0.998363L6.54409 12.5174L3.07992 8.92767C2.71809 8.55273 2.12844 8.55273 1.76661 8.92767L0.44996 10.292C0.0881317 10.667 0.0881317 11.278 0.44996 11.6564L5.77688 17.1764C6.07506 17.4854 6.54409 17.7214 6.96623 17.7214C7.38836 17.7214 7.81384 17.4472 8.08857 17.034L17.1611 3.16469C17.4492 2.72726 17.3386 2.12666 16.9132 1.82809Z" ></path></svg></i>
+												</label>
+											</div>
+											<div class="links">
+												<button class="next" data-step=".step2">
+													Начать 
+													<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M9.12247 0C8.97342 0 8.82421 0.0597364 8.71062 0.1772L8.66056 0.228835C8.43279 0.463763 8.43279 0.844131 8.66056 1.07846L10.911 3.39966H0.582515C0.260967 3.39966 0 3.66884 0 4.0005C0 4.33216 0.260967 4.60134 0.582515 4.60134H10.911L8.66056 6.92255C8.43279 7.15747 8.43279 7.53784 8.66056 7.77217L8.71062 7.8238C8.93838 8.05873 9.30715 8.05873 9.53433 7.8238L12.8292 4.42531C13.0569 4.19039 13.0569 3.81002 12.8292 3.57569L9.53433 0.1772C9.42045 0.0597364 9.27152 0 9.12247 0Z" fill="white"/>
+													</svg>
+												</button>
+											</div>	
+										</div> 										
 									</div>
-								</div>
 
-
-								<div class="step step2">
-									<div class="title">Какой ваш Возраст?</div>
-
-									<div class="form">
-										<div class="line">
-											<div class="field">
-												<input type="text" name="" value="" class="input">
+									<div class="step step2">
+										<div class="title">Сколько вам лет?</div>
+										<div class="desc">Выгодное расположение в непосредственной близости от жилых домов.<br>  
+											Широкий товарный ассортимент, удовлетворяющий любым требованиям покупателей</div>
+										<div class="form">
+											<div class="line">
+												<div class="field">
+													<input type="text" name="" value="" class="input" placeholder="Ваш возраст">
+												</div>
 											</div>
 										</div>
+
+										<div class="links">
+											<button class="next valide" data-step=".step3">
+												Далее
+												<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M9.12247 0C8.97342 0 8.82421 0.0597364 8.71062 0.1772L8.66056 0.228835C8.43279 0.463763 8.43279 0.844131 8.66056 1.07846L10.911 3.39966H0.582515C0.260967 3.39966 0 3.66884 0 4.0005C0 4.33216 0.260967 4.60134 0.582515 4.60134H10.911L8.66056 6.92255C8.43279 7.15747 8.43279 7.53784 8.66056 7.77217L8.71062 7.8238C8.93838 8.05873 9.30715 8.05873 9.53433 7.8238L12.8292 4.42531C13.0569 4.19039 13.0569 3.81002 12.8292 3.57569L9.53433 0.1772C9.42045 0.0597364 9.27152 0 9.12247 0Z" fill="white"/>
+												</svg>
+											</button>
+										</div>
 									</div>
 
-									<div class="links">
-										<button class="next valide" data-step=".step3">
-										Продолжить 
-										</button>
-										<button class="next" data-step=".step1">Вернуться</button>
-									</div>
-								</div>
-
-								<div class="step step3">
-									<div class="title">Какой ваш Возраст 2?</div>
-
-									<div class="form">
-										<div class="line">
-											<div class="field">
-												<input type="text" name="" value="" class="input" >
+									<div class="step step3">
+										<div class="success">
+											<div class="icon">
+												<svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M36.6352 0.486328C16.681 0.486328 0.486328 16.681 0.486328 36.6352C0.486328 56.5894 16.681 72.7841 36.6352 72.7841C56.5894 72.7841 72.7841 56.5894 72.7841 36.6352C72.7841 16.681 56.5894 0.486328 36.6352 0.486328ZM36.6352 65.5543C20.6936 65.5543 7.7161 52.5769 7.7161 36.6352C7.7161 20.6936 20.6936 7.7161 36.6352 7.7161C52.5769 7.7161 65.5543 20.6936 65.5543 36.6352C65.5543 52.5769 52.5769 65.5543 36.6352 65.5543ZM29.4054 44.4795L50.661 23.224C52.0708 21.8142 54.3843 21.8142 55.7941 23.224C57.2039 24.6338 57.2039 26.9112 55.7941 28.321L31.972 52.1431C30.5622 53.5529 28.2848 53.5529 26.875 52.1431L17.5124 42.7805C16.1026 41.3707 16.1026 39.0933 17.5124 37.6835C18.9223 36.2737 21.1996 36.2737 22.6094 37.6835L29.4054 44.4795Z" fill="white"/>
+												</svg>
 											</div>
-										</div>
-									</div>
-
-									<div class="links">
-										<button class="next valide" data-step=".step4">Продолжить</button>
-										<button class="next" data-step=".step2">Вернуться</button>
-									</div>
-								</div>
-
-								<div class="step step4">
-									<div class="title">Ваше имя</div>
-
-									<div class="form">
-										<div class="line">
-											<div class="field">
-												<input type="text" name="" value="" class="input" >
+											<div class="success_info">
+												<div class="title">Спасибо!</div>
+												<div class="desc">Мы свяжемся с вами в течении<br> рабочего времени</div>	
 											</div>
-										</div>
+										</div>	
 									</div>
-
-									<div class="links">
-										<button class="next valide" data-step=".step5">Продолжить</button>
-										<button class="next" data-step=".step3">Вернуться</button>
-									</div>
-								</div>
-
-								<div class="step step5">
-									<div class="title">Телефон</div>
-
-									<div class="form">
-										<div class="line">
-											<div class="field">
-												<input type="tel" name="" value="" class="input">
-											</div>
-										</div>
-									</div>
-
-									<div class="links">
-										<button class="next valide" data-step=".step6">Продолжить</button>
-										<button class="next" data-step=".step4">Вернуться</button>
-									</div>
-								</div>
-
-								<div class="step step6">
-									<div class="title">Нажмите на "завершить" для завершения опроса</div>
-
-									<div class="form">
-										<div class="agree">
-											<input type="checkbox" name="agree" id="quiz_poll_agree_check" checked>
-											<label for="quiz_poll_agree_check">Согласен с политикой обработки данных
-												<i><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.9132 1.82809L15.3754 0.744931C14.9499 0.446366 14.367 0.560932 14.0822 0.998363L6.54409 12.5174L3.07992 8.92767C2.71809 8.55273 2.12844 8.55273 1.76661 8.92767L0.44996 10.292C0.0881317 10.667 0.0881317 11.278 0.44996 11.6564L5.77688 17.1764C6.07506 17.4854 6.54409 17.7214 6.96623 17.7214C7.38836 17.7214 7.81384 17.4472 8.08857 17.034L17.1611 3.16469C17.4492 2.72726 17.3386 2.12666 16.9132 1.82809Z" ></path></svg></i>
-											</label>
-										</div>
-									</div> 
-
-									<div class="links">
-										<button class="next valide end" data-step=".step7">Завершить 
-										</button>
-										<button class="next" data-step=".step5">Вернуться</button>
-									</div>
-								</div>
-
-
-								<div class="step step7">
-									<div class="success">
-										<div class="icon">
-											<svg width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path fill-rule="evenodd" clip-rule="evenodd" d="M36.6352 0.486328C16.681 0.486328 0.486328 16.681 0.486328 36.6352C0.486328 56.5894 16.681 72.7841 36.6352 72.7841C56.5894 72.7841 72.7841 56.5894 72.7841 36.6352C72.7841 16.681 56.5894 0.486328 36.6352 0.486328ZM36.6352 65.5543C20.6936 65.5543 7.7161 52.5769 7.7161 36.6352C7.7161 20.6936 20.6936 7.7161 36.6352 7.7161C52.5769 7.7161 65.5543 20.6936 65.5543 36.6352C65.5543 52.5769 52.5769 65.5543 36.6352 65.5543ZM29.4054 44.4795L50.661 23.224C52.0708 21.8142 54.3843 21.8142 55.7941 23.224C57.2039 24.6338 57.2039 26.9112 55.7941 28.321L31.972 52.1431C30.5622 53.5529 28.2848 53.5529 26.875 52.1431L17.5124 42.7805C16.1026 41.3707 16.1026 39.0933 17.5124 37.6835C18.9223 36.2737 21.1996 36.2737 22.6094 37.6835L29.4054 44.4795Z" fill="white"/>
-											</svg>
-
-										</div>
-
-										<div class="title">Спасибо!</div>
-
-										<div class="desc">Мы перезвоним вам в течении рабочего времени</div>
-									</div>
-								</div>
-							</form>
+								</form>
+							</div>
 						</div>
-
-
-						<div class="img">
-							<div class="lozad" data-background-image="images/tmp/big_boss_quote_img.jpg"></div>
-						</div>
+						
 
 					</div>
 				</section>
