@@ -863,28 +863,21 @@
 				<section class="big_boss_quote block">
 					<div class="cont">
 
-						<div class="block_head">
-							<div class="title">Слово <span>Руководителя</span></div>
-						</div>
-
-						<div class="info2">							
-
-							<div class="info">	
-								<div class="name">Иван Петрович</div>
-
+							<div class="info">
+								<div class="block_head">
+									<div class="title">Слово нашего руководителя</div>							
+								</div>	
 								<div class="text_block">
 									<p>
-										«Выгодное расположение в непосредственной близости от жилых домов Широкий товарный ассортимент, удовлетворяющий любым требованиям покупателей.
-									</p>
-
-									<p>
-										Выгодное расположение в непосредственной близости от жилых домов Широкий товарный ассортимент»
-									</p>
+									Аутотренинг просветляет код. Кризис, несмотря на внешние воздействия, неустойчив. Конечно, нельзя не принять во внимание тот факт, что психоанализ абсурдно отталкивает психоанализ. Сознание, как бы это ни казалось парадоксальным, отражает интеракционизм, тем не менее как только ортодоксальность окончательно возобладает.
+									</p>									
 								</div>
+								<div class="name">Иван Петрович</div>
+								<div class="post">Директор «Заполярье»</div>
 							</div>	
 
 							<div class="img">
-								<div class="lozad" data-background-image="images/tmp/big_boss_quote_img.jpg"></div>
+								<div class="lozad" data-background-image="images/tmp/big_boss_quote.jpg"></div>
 							</div>					
 						</div>
 
@@ -951,82 +944,66 @@
 					<div class="cont">
 
 						<div class="block_head">
-							<div class="title">Наши <span>Цены</span></div>
+							<div class="title">Наши цены</div>
 
-							<div class="desc">Выгодное расположение в непосредственной близости от жилых домов Широкий товарный ассортимент, удовлетворяющий любым требованиям покупателей.</div>
+							<div class="desc">Посмотрите наши основные товары и услуги и убедитесь, что это именно то, что вы искали.</div>
 						</div>
 
 
 						<div class="flex">
 							<div class="item">
-								<div class="name">Начальный</div>
+								<div class="name">СТАНДАРТ</div>
 
-								<div class="price">Бесплатно</div>
+								<div class="price">
+									2 500 ₽
+								</div>
 
-								<div class="desc">Магазины «у дома»​ для покупки товаров повседневного спроса. Выгодное расположение</div>
+								<div class="desc">Изучая с позиций, близких гештальтпсихологии и психоанализу процессы в малой группе, отражающих неформальную микроструктуру общества, Дж.Морено.</div>
 
-								<a href="/" class="link">Подробнее 									
+								<a href="/" class="link-more">
+									<span>Подробнее</span> 
+									<svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11.9294 0C11.7345 0 11.5393 0.0896046 11.3908 0.2658L11.3253 0.343252C11.0275 0.695644 11.0275 1.2662 11.3253 1.61769L14.2682 5.0995H0.76175C0.341264 5.0995 0 5.50326 0 6.00075C0 6.49825 0.341264 6.90201 0.76175 6.90201H14.2682L11.3253 10.3838C11.0275 10.7362 11.0275 11.3068 11.3253 11.6583L11.3908 11.7357C11.6886 12.0881 12.1709 12.0881 12.468 11.7357L16.7766 6.63797C17.0745 6.28558 17.0745 5.71503 16.7766 5.36354L12.468 0.2658C12.319 0.0896046 12.1243 0 11.9294 0Z" fill="#D8A83A"/>
+									</svg> 									
 								</a>
 							</div>
 
 
 							<div class="item">
-								<div class="name">Стандарт</div>
+								<div class="name">СТАНДАРТ</div>
 
 								<div class="price">
-									2500₽
+									2 500 ₽
 								</div>
 
-								<div class="desc">Магазины «у дома»​ для покупки товаров повседневного спроса. Выгодное расположение Магазины «у дома»​ для покупки товаров повседневного спроса. Выгодное расположение</div>
+								<div class="desc">Изучая с позиций, близких гештальтпсихологии и психоанализу процессы в малой группе, отражающих неформальную микроструктуру общества, Дж.Морено.</div>
 
-								<a href="/" class="link">Подробнее 
-									
+								<a href="/" class="link-more">
+									<span>Подробнее</span> 
+									<svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11.9294 0C11.7345 0 11.5393 0.0896046 11.3908 0.2658L11.3253 0.343252C11.0275 0.695644 11.0275 1.2662 11.3253 1.61769L14.2682 5.0995H0.76175C0.341264 5.0995 0 5.50326 0 6.00075C0 6.49825 0.341264 6.90201 0.76175 6.90201H14.2682L11.3253 10.3838C11.0275 10.7362 11.0275 11.3068 11.3253 11.6583L11.3908 11.7357C11.6886 12.0881 12.1709 12.0881 12.468 11.7357L16.7766 6.63797C17.0745 6.28558 17.0745 5.71503 16.7766 5.36354L12.468 0.2658C12.319 0.0896046 12.1243 0 11.9294 0Z" fill="#D8A83A"/>
+									</svg> 									
 								</a>
 							</div>
 
 
 							<div class="item">
-								<div class="name">Премиум</div>
+								<div class="name">СТАНДАРТ</div>
 
 								<div class="price">
-									5000₽
+								2 500 ₽
 								</div>
 
-								<div class="desc">Магазины «у дома»​ для покупки товаров повседневного спроса. Выгодное расположение</div>
+								<div class="desc">Изучая с позиций, близких гештальтпсихологии и психоанализу процессы в малой группе, отражающих неформальную микроструктуру общества, Дж.Морено.</div>
 
-								<a href="/" class="link">Подробнее 
-									
+								<a href="/" class="link-more">
+									<span>Подробнее</span> 
+									<svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11.9294 0C11.7345 0 11.5393 0.0896046 11.3908 0.2658L11.3253 0.343252C11.0275 0.695644 11.0275 1.2662 11.3253 1.61769L14.2682 5.0995H0.76175C0.341264 5.0995 0 5.50326 0 6.00075C0 6.49825 0.341264 6.90201 0.76175 6.90201H14.2682L11.3253 10.3838C11.0275 10.7362 11.0275 11.3068 11.3253 11.6583L11.3908 11.7357C11.6886 12.0881 12.1709 12.0881 12.468 11.7357L16.7766 6.63797C17.0745 6.28558 17.0745 5.71503 16.7766 5.36354L12.468 0.2658C12.319 0.0896046 12.1243 0 11.9294 0Z" fill="#D8A83A"/>
+									</svg> 									
 								</a>
 							</div>
-
-
-							<div class="item">
-								<div class="name">Премиум</div>
-
-								<div class="price">
-									5000₽
-								</div>
-
-								<div class="desc">Магазины «у дома»​ для покупки товаров повседневного спроса. Выгодное расположение</div>
-
-								<a href="/" class="link">Подробнее 
-								
-								</a>
-							</div>
-
-							<div class="item">
-								<div class="name">Премиум</div>
-
-								<div class="price">
-									5000₽
-								</div>
-
-								<div class="desc">Магазины «у дома»​ для покупки товаров повседневного спроса. Выгодное расположение</div>
-
-								<a href="/" class="link">Подробнее 
-								
-								</a>
-							</div>
+						
 						</div>
 
 					</div>
@@ -1190,14 +1167,15 @@
 
 				<section class="director_letter block">
 					<div class="cont">
-
-						
+						<div class="img">
+							<div class="lozad" data-background-image="images/tmp/big_boss_quote_img.jpg"></div>
+						</div>
 
 						<div class="info">
 							<div class="block_head">
-								<div class="title">Письмо Директору</div>
+								<div class="title">Письмо нашему директору</div>
 
-								<div class="desc">Выгодное расположение в непосредственной близости от жилых домов</div>
+								<div class="desc">Узнайте, какими способами с нами можно связаться</div>
 							</div>
 
 
@@ -1210,13 +1188,13 @@
 
 								<div class="line">
 									<div class="field">
-										<input type="tel" name="" value="" class="input" placeholder="Телефон" required>
+										<input type="tel" name="" value="" class="input" placeholder="Ваш телефон" required>
 									</div>
 								</div>
 
 								<div class="line">
 									<div class="field">
-										<textarea name="" placeholder="Сообщение" required></textarea>
+										<textarea name="" placeholder="Ваше сообщение" required></textarea>
 									</div>
 								</div>
 
@@ -1224,22 +1202,21 @@
 								<div class="bottom">
 									<div class="agree">
 										<input type="checkbox" name="agree" id="agree_check" checked>
-										<label for="agree_check">Согласен с политикой <a href="">обработки данных</a>
+										<label for="agree_check">Согласен с политикой обработки данных</a>
 											<i><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.9132 1.82809L15.3754 0.744931C14.9499 0.446366 14.367 0.560932 14.0822 0.998363L6.54409 12.5174L3.07992 8.92767C2.71809 8.55273 2.12844 8.55273 1.76661 8.92767L0.44996 10.292C0.0881317 10.667 0.0881317 11.278 0.44996 11.6564L5.77688 17.1764C6.07506 17.4854 6.54409 17.7214 6.96623 17.7214C7.38836 17.7214 7.81384 17.4472 8.08857 17.034L17.1611 3.16469C17.4492 2.72726 17.3386 2.12666 16.9132 1.82809Z" ></path></svg></i>
 										</label>
 									</div>
 
 									<div class="submit">
-										<button type="submit" class="submit_btn">Отправить</button>
+										<button type="submit" class="submit_btn">Отправить
+											<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9.12247 0C8.97342 0 8.82421 0.0597364 8.71062 0.1772L8.66056 0.228835C8.43279 0.463763 8.43279 0.844131 8.66056 1.07846L10.911 3.39966H0.582515C0.260967 3.39966 0 3.66884 0 4.0005C0 4.33216 0.260967 4.60134 0.582515 4.60134H10.911L8.66056 6.92255C8.43279 7.15747 8.43279 7.53784 8.66056 7.77217L8.71062 7.8238C8.93838 8.05873 9.30715 8.05873 9.53433 7.8238L12.8292 4.42531C13.0569 4.19039 13.0569 3.81002 12.8292 3.57569L9.53433 0.1772C9.42045 0.0597364 9.27152 0 9.12247 0Z" fill="white"/>
+											</svg>
+										</button>
 									</div>
 								</div>
 							</form>
 						</div>
-
-						<div class="img">
-							<div class="lozad" data-background-image="images/tmp/big_boss_quote_img.jpg"></div>
-						</div>
-
 
 					</div>
 				</section>		
@@ -1248,38 +1225,50 @@
 				<section class="contacts_block block">
 					<div class="cont">
 
-						<div class="block_head">
-							<div class="title">Наши Контакты</div>
-						</div>
-
 						<div class="info2">	
-							<div class="map">
-								<div>
-									<iframe width="100%" height="500" class="lozad" data-src="https://maps.google.com/maps?width=100&amp;height=500&amp;hl=ru&amp;q=%D0%92%D0%BE%D0%BB%D0%B6%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%D0%B0%2036%20%D0%BF&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+							<div class="info">
+								<div class="block_head">
+									<div class="title">Наши Контакты</div>
+									<div class="desc">Узнайте, какими способами с нами можно связаться</div>
+								</div>
+
+								<div class="contacts">
+									
+									<div class="phone">
+										<div class="phone_img">
+											<img src="images/ic_phone2.svg" alt="">
+										</div>
+										<div class="phone_box">
+											<a href="tel:79211767223" class="val">+7 (921) 176-72-23</a>
+											<div class="exp">Наш телефон</div>	
+										</div>
+									</div>
+
+									<div class="email">
+										<div class="email_img">
+											<img src="images/ic_email.svg" alt="">
+										</div>
+										<div class="email_box">
+											<a href="mailto:natalya.krepel@mail.ru" class="val">natalya.krepel@mail.ru</a>
+											<div class="exp">Наша электронная почта</div>	
+										</div>
+									</div>
+								
+									<div class="adres">
+										<div class="adres_img">
+											<img src="images/ic_marker.svg" alt="">
+										</div>
+										<div class="adres_box">
+											<div class="val">г. Волгоград, улица Ленина, дом 17, корпус 3, офис 5</div>
+											<div class="exp">Наш адрес</div>	
+										</div>
+									</div>
 								</div>
 							</div>
-
-
-							<div class="info">
-								<div class="contacts">
-									<div>Связь с нами:</div>
-
-									<div class="val">
-										<a href="tel:88001231213" class="phone">8 800 123-12-13</a>
-										<!-- <div class="exp">Бесплатный звонок по России</div> -->
-									</div>
-
-									<div class="val">
-										<a href="mailto:info@gmail.com" class="email">info@gmail.com</a>
-										<div class="exp">Наша электронная почта</div>
-									</div>
-								</div>
-
-
-								<div class="adres">
-									<div>Наш адрес:</div>
-
-									<div class="val">г. Волгоград, ул. Ленина, 31, офис 5</div>
+							
+							<div class="map">
+								<div>
+									<iframe width="100%" height="666" class="lozad" data-src="https://maps.google.com/maps?width=100&amp;height=666&amp;hl=ru&amp;q=%D0%92%D0%BE%D0%BB%D0%B6%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BC%D0%B8%D1%80%D0%B0%2036%20%D0%BF&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 								</div>
 							</div>
 						</div>					
@@ -1629,7 +1618,11 @@
 
 								<div class="desc">Выгодное расположение в непосредственной близости от жилых домов Широкий товарный ассортимент, <b>удовлетворяющий любым требованиям покупателей.</b></div>
 
-								<a href="/" class="link">Перейти</a>
+								<a href="/" class="link">Перейти
+									<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M9.12247 0C8.97342 0 8.82421 0.0597364 8.71062 0.1772L8.66056 0.228835C8.43279 0.463763 8.43279 0.844131 8.66056 1.07846L10.911 3.39966H0.582515C0.260967 3.39966 0 3.66884 0 4.0005C0 4.33216 0.260967 4.60134 0.582515 4.60134H10.911L8.66056 6.92255C8.43279 7.15747 8.43279 7.53784 8.66056 7.77217L8.71062 7.8238C8.93838 8.05873 9.30715 8.05873 9.53433 7.8238L12.8292 4.42531C13.0569 4.19039 13.0569 3.81002 12.8292 3.57569L9.53433 0.1772C9.42045 0.0597364 9.27152 0 9.12247 0Z" fill="white"/>
+									</svg>
+								</a>
 							</div>
 						</div>
 
@@ -1653,15 +1646,21 @@
 						<div class="info">
 							<div class="block_head">
 								<div class="title">Мы в Instagram</div>
+								<div class="info-box">
+									<a href="/" target="_blank" rel="noopener nofollow" class="soc_link">
+										<img data-src="images/ic_soc2.svg" alt="" class="lozad icon">
+										instagram.com/user123124
+									</a>
 
-								<a href="/" target="_blank" rel="noopener nofollow" class="soc_link">
-									<img data-src="images/ic_soc2.svg" alt="" class="lozad icon">
-									instagram.com/user123124
-								</a>
+									<div class="desc">Выгодное расположение в непосредственной близости от жилых домов Широкий товарный ассортимент, <b>удовлетворяющий любым требованиям покупателей.</b></div>
 
-								<div class="desc">Выгодное расположение в непосредственной близости от жилых домов Широкий товарный ассортимент, <b>удовлетворяющий любым требованиям покупателей.</b></div>
-
-								<a href="/" class="link">Перейти</a>
+									<a href="/" class="link">Перейти
+										<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M9.12247 0C8.97342 0 8.82421 0.0597364 8.71062 0.1772L8.66056 0.228835C8.43279 0.463763 8.43279 0.844131 8.66056 1.07846L10.911 3.39966H0.582515C0.260967 3.39966 0 3.66884 0 4.0005C0 4.33216 0.260967 4.60134 0.582515 4.60134H10.911L8.66056 6.92255C8.43279 7.15747 8.43279 7.53784 8.66056 7.77217L8.71062 7.8238C8.93838 8.05873 9.30715 8.05873 9.53433 7.8238L12.8292 4.42531C13.0569 4.19039 13.0569 3.81002 12.8292 3.57569L9.53433 0.1772C9.42045 0.0597364 9.27152 0 9.12247 0Z" fill="white"/>
+										</svg>
+									</a>	
+								</div>
+								
 							</div>
 						</div>
 
@@ -1698,13 +1697,13 @@
 
 
 
-				<section class="upload block">
+				<section class="upload">
 					<form class="cont">
 						 <div class="info">
 							<div class="block_head">
 								<div class="title">Загрузка Файлов</div>
 
-								<div class="desc">Выгодное расположение в непосредственной близости от жилых домов Широкий товарный ассортимент, удовлетворяющий любым требованиям покупателей.</div>
+								<div class="desc">Нам дорога наша репутация, поэтому мы дорожим каждым клиентом. Посмотрите, что они говорят и пишут о нас. Мы публикуем каждый оставленный отзыв о нашей компании.</div>
 							</div>
 
 
@@ -1712,7 +1711,11 @@
 								<div class="file">
 								    <div class="file-chooser">
 								    	<input class="file-chooser__input" name="file[]" type="file" id="file">
-								    	<label for="file">Загрузить</label>
+								    	<label for="file">Выбрать файлы
+											<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M9.12247 0C8.97342 0 8.82421 0.0597364 8.71062 0.1772L8.66056 0.228835C8.43279 0.463763 8.43279 0.844131 8.66056 1.07846L10.911 3.39966H0.582515C0.260967 3.39966 0 3.66884 0 4.0005C0 4.33216 0.260967 4.60134 0.582515 4.60134H10.911L8.66056 6.92255C8.43279 7.15747 8.43279 7.53784 8.66056 7.77217L8.71062 7.8238C8.93838 8.05873 9.30715 8.05873 9.53433 7.8238L12.8292 4.42531C13.0569 4.19039 13.0569 3.81002 12.8292 3.57569L9.53433 0.1772C9.42045 0.0597364 9.27152 0 9.12247 0Z" fill="white"/>
+											</svg>
+										</label>
 								    </div>
 									
 									<div class="list file-uploader__message-area">
@@ -1752,7 +1755,11 @@
 								</div>
 
 								<div class="submit">
-									<button type="submit" class="submit_btn">Отправить</button>
+									<button type="submit" class="submit_btn">Отправить
+										<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M9.12247 0C8.97342 0 8.82421 0.0597364 8.71062 0.1772L8.66056 0.228835C8.43279 0.463763 8.43279 0.844131 8.66056 1.07846L10.911 3.39966H0.582515C0.260967 3.39966 0 3.66884 0 4.0005C0 4.33216 0.260967 4.60134 0.582515 4.60134H10.911L8.66056 6.92255C8.43279 7.15747 8.43279 7.53784 8.66056 7.77217L8.71062 7.8238C8.93838 8.05873 9.30715 8.05873 9.53433 7.8238L12.8292 4.42531C13.0569 4.19039 13.0569 3.81002 12.8292 3.57569L9.53433 0.1772C9.42045 0.0597364 9.27152 0 9.12247 0Z" fill="white"/>
+										</svg>
+									</button>
 								</div>
 							</div>
 						</div>
@@ -2501,7 +2508,7 @@
 
 									<div class="info">
 
-										<div class="desc">Описание фотографии. Может быть несколько строчек. Вот так.</div>
+										<div class="desc">Юрист готовит договор</div>
 									</div>
 								</a>
 							</div>
@@ -2512,7 +2519,7 @@
 
 									<div class="info">
 
-										<div class="desc">Описание фотографии. Может быть несколько строчек. Вот так.</div>
+										<div class="desc">Наш менеджер Виктория работаеет для вас</div>
 									</div>
 								</a>
 							</div>
@@ -2524,7 +2531,7 @@
 
 									<div class="info">
 
-										<div class="desc">Описание фотографии. Может быть несколько строчек. Вот так.</div>
+										<div class="desc">Юрист готовит договор с партнером</div>
 									</div>
 								</a>
 							</div>
@@ -2535,7 +2542,7 @@
 
 									<div class="info">
 
-										<div class="desc">Описание фотографии. Может быть несколько строчек. Вот так.</div>
+										<div class="desc">Юрист готовит договор с партнером</div>
 									</div>
 								</a>
 							</div>
@@ -2546,7 +2553,7 @@
 
 									<div class="info">
 
-										<div class="desc">Описание фотографии. Может быть несколько строчек. Вот так.</div>
+										<div class="desc">Юрист готовит договор с партнером</div>
 									</div>
 								</a>
 							</div>
@@ -2557,7 +2564,7 @@
 
 									<div class="info">
 
-										<div class="desc">Описание фотографии. Может быть несколько строчек. Вот так.</div>
+										<div class="desc">Юрист готовит договор с партнером</div>
 									</div>
 								</a>
 							</div>
