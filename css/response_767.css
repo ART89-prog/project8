@@ -685,19 +685,6 @@
         bottom: 12px;
     }
 
-
-
-    .advantages .flex
-    {
-    }
-
-    .advantages .flex > *
-    {
-        width: calc(50%);
-        max-width: calc(50% );
-    }
-
-
     .about .info2{
         flex-direction: column;
     }
@@ -1465,6 +1452,15 @@
     .order_block .form .submit_btn {
         justify-content: center;
         width: 100%;
+    }
+    .articles_top {
+        align-items: start;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+    .articles .block_head {
+        margin-bottom: 20px;
+        max-width: 100%;
     }
 
 }

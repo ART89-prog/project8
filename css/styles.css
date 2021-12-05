@@ -2619,7 +2619,6 @@ aside > *:last-child
     width: 412px;
     height: 460px;
     position: relative;
-    margin-left: -37px;
 }
 .about .img > * {
     position: absolute;
@@ -3894,8 +3893,6 @@ aside > *:last-child
     transition: .2s linear;
     pointer-events: none;
     opacity: 0;
-    width: 287px !important;
-    
 }
 .team .owl-item.active
 {

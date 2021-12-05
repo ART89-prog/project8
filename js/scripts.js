@@ -159,6 +159,7 @@ $(function(){
 		dotsEach: true,
 		dots: false,
 		loop: true,
+		margin: 20,
 		smartSpeed: 750,
 		center: true,
 		responsive: {
@@ -166,7 +167,7 @@ $(function(){
 				items: 1
 			},
 			768:{
-				items: 2
+				items: 3
 			},
 			1024:{
 				items: 3
@@ -284,7 +285,7 @@ $(function(){
 	            margin: 0
 	        },
 	        1200:{
-	            items: 8
+	            items: 8,
 	            margin: 0
 	        }
 		}
@@ -299,7 +300,7 @@ $(function(){
 
 
 	// Сотрудники
-	var owl4=$('.team .slider').owlCarousel({
+	var owl8=$('.team .slider').owlCarousel({
 		items: 3,
 		margin: 26,
 		nav: false,
@@ -314,15 +315,15 @@ $(function(){
 	            margin: 26
 	        },
 	        768:{
-	            items: 1,
-	            margin: 26
-	        },
-	        1024:{
 	            items: 2,
 	            margin: 26
 	        },
-	        1200:{
+	        1024:{
 	            items: 3,
+	            margin: 26
+	        },
+	        1200:{
+	            items: 2,
 	            margin: 26
 	        }
 		},
@@ -330,10 +331,10 @@ $(function(){
 	})
 
 	$(".next").click(function(){
-		owl4.trigger("next.owl.carousel");
+		owl8.trigger("next.owl.carousel");
 	});
 	$(".prev").click(function(){
-		owl4.trigger("prev.owl.carousel");
+		owl8.trigger("prev.owl.carousel");
 	});
 
 
