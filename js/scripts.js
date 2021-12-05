@@ -74,12 +74,12 @@ $(function(){
 
 	// Отзывы
 	var owl2 =$('.reviews .slider').owlCarousel({
-		items: 4,
+		items: 3,
 		margin: 26,
 		nav: false,
 		dotsEach : true,
 		dots: false,
-		loop: false,
+		loop: true,
 		smartSpeed: 750,
 		responsive: {
 	        0:{
@@ -98,9 +98,11 @@ $(function(){
 	            items: 3,
 	            margin: 26
 	        }
+		},	
+		onResize: function() {
+			owl2.trigger('refresh.owl.carousel')
 		}	
-			
-	})
+	});
 
 	$(".next").click(function(){
 		owl2.trigger("next.owl.carousel");
@@ -118,7 +120,7 @@ $(function(){
 		nav: false,
 		dotsEach: true,
 		dots: false,
-		loop: false,
+		loop: true,
 		smartSpeed: 750,
 		responsive: {
 			0:{
@@ -183,22 +185,90 @@ $(function(){
 	});
 
 
-
-
-
-
-	// Статьи
-	$('.articles .slider').owlCarousel({
+	// Акции
+	var owl5 =$('.stocks .slider').owlCarousel({
 		items: 1,
 		nav: false,
+		dots: false,	
+		dotsEach : true,
+		loop: true,
+		margin: 26,
+		smartSpeed: 750,
+		responsive: {
+			0:{
+				items: 1,
+				margin: 26
+			},
+			768:{
+				items: 2,
+				margin: 26
+			},
+			1024:{
+				items: 3,
+				margin: 26
+			},
+			1200:{
+				items: 3,
+				margin: 26
+			}
+		},
+		
+	})
+
+	$(".next").click(function(){
+		owl5.trigger("next.owl.carousel");
+	});
+	$(".prev").click(function(){
+		owl5.trigger("prev.owl.carousel");
+	});
+
+
+
+	// Видео отзывы
+	var owl6 =$('.video_reviews .slider').owlCarousel({
+		items: 2,
+		nav: false,
 		dots: false,
-	navText: [
-		'<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.59577 6.35904L6.41677 10.18C6.83077 10.594 6.83077 11.266 6.41677 11.68C6.00277 12.094 5.33077 12.094 4.91677 11.68L0.302771 7.06604C-0.0882285 6.67504 -0.0882285 6.04204 0.302771 5.65204L4.91677 1.03804C5.33077 0.624039 6.00277 0.624039 6.41677 1.03804C6.83077 1.45204 6.83077 2.12404 6.41677 2.53804L2.59577 6.35904Z"/></svg>',				
-		'<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.40423 6.35904L0.583229 10.18C0.169229 10.594 0.169229 11.266 0.583229 11.68C0.997229 12.094 1.66923 12.094 2.08323 11.68L6.69723 7.06604C7.08823 6.67504 7.08823 6.04204 6.69723 5.65204L2.08323 1.03804C1.66923 0.624039 0.997229 0.624039 0.583229 1.03804C0.169229 1.45204 0.169229 2.12404 0.583229 2.53804L4.40423 6.35904Z"/></svg>'
-	        
-	    ],
+		loop: true,
+		margin: 51,
+		smartSpeed: 750,
+		responsive: {
+			0:{
+				items: 1,
+				margin: 51
+			},
+			768:{
+				items: 2,
+				margin: 51
+			},
+			1024:{
+				items: 2,
+				margin: 51
+			},
+			1200:{
+				items: 2,
+				margin: 51
+			}
+		},		
+	})
+
+	$(".next").click(function(){
+		owl6.trigger("next.owl.carousel");
+	});
+	$(".prev").click(function(){
+		owl6.trigger("prev.owl.carousel");
+	});
+
+
+
+	// Документы
+	var owl7 =$('.documents .slider').owlCarousel({
+		items: 8,
+		nav: false,
+		dots: false,
 		dotsEach : false,
-		loop: false,
+		margin: 10,
+		loop: true,
 		smartSpeed: 750,
 		responsive: {
 	        0:{
@@ -206,7 +276,7 @@ $(function(){
 	            margin: 0
 	        },
 	        768:{
-	            items: 2,
+	            items: 5,
 	            margin: 0
 	        },
 	        1024:{
@@ -214,89 +284,29 @@ $(function(){
 	            margin: 0
 	        },
 	        1200:{
-	            items: 3,
+	            items: 8
 	            margin: 0
 	        }
 		}
 	})
 
-
-	// Видео отзывы
-	$('.video_reviews .slider').owlCarousel({
-		items: 1,
-		nav: true,
-		dots: false,
-		loop: false,
-	navText: [
-		'<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.59577 6.35904L6.41677 10.18C6.83077 10.594 6.83077 11.266 6.41677 11.68C6.00277 12.094 5.33077 12.094 4.91677 11.68L0.302771 7.06604C-0.0882285 6.67504 -0.0882285 6.04204 0.302771 5.65204L4.91677 1.03804C5.33077 0.624039 6.00277 0.624039 6.41677 1.03804C6.83077 1.45204 6.83077 2.12404 6.41677 2.53804L2.59577 6.35904Z"/></svg>',				
-		'<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.40423 6.35904L0.583229 10.18C0.169229 10.594 0.169229 11.266 0.583229 11.68C0.997229 12.094 1.66923 12.094 2.08323 11.68L6.69723 7.06604C7.08823 6.67504 7.08823 6.04204 6.69723 5.65204L2.08323 1.03804C1.66923 0.624039 0.997229 0.624039 0.583229 1.03804C0.169229 1.45204 0.169229 2.12404 0.583229 2.53804L4.40423 6.35904Z"/></svg>'
-	        
-	    ],
-		smartSpeed: 750,
-		responsive: {
-	        0:{
-	            items: 1,
-	            margin: 0
-	        },
-	        768:{
-	            items: 2,
-	            margin: 0
-	        },
-	        1024:{
-	            items: 3,
-	            margin: 0
-	        },
-	        1200:{
-	            items: 3,
-	            margin: 0
-	        }
-		},		
-	})
-
-
-	// Акции
-	$('.stocks .slider').owlCarousel({
-		items: 1,
-		nav: true,
-		dots: false,
-	navText: [
-		'<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.59577 6.35904L6.41677 10.18C6.83077 10.594 6.83077 11.266 6.41677 11.68C6.00277 12.094 5.33077 12.094 4.91677 11.68L0.302771 7.06604C-0.0882285 6.67504 -0.0882285 6.04204 0.302771 5.65204L4.91677 1.03804C5.33077 0.624039 6.00277 0.624039 6.41677 1.03804C6.83077 1.45204 6.83077 2.12404 6.41677 2.53804L2.59577 6.35904Z"/></svg>',				
-		'<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.40423 6.35904L0.583229 10.18C0.169229 10.594 0.169229 11.266 0.583229 11.68C0.997229 12.094 1.66923 12.094 2.08323 11.68L6.69723 7.06604C7.08823 6.67504 7.08823 6.04204 6.69723 5.65204L2.08323 1.03804C1.66923 0.624039 0.997229 0.624039 0.583229 1.03804C0.169229 1.45204 0.169229 2.12404 0.583229 2.53804L4.40423 6.35904Z"/></svg>'
-	        
-	    ],
-		dotsEach : true,
-		loop: false,
-		smartSpeed: 750,
-		responsive: {
-	        0:{
-	            items: 1,
-	            margin: 0
-	        },
-	        768:{
-	            items: 2,
-	            margin: 0
-	        },
-	        1024:{
-	            items: 3,
-	            margin: 0
-	        },
-	        1200:{
-	            items: 3,
-	            margin: 0
-	        }
-		},
-		
-	})
+	$(".next").click(function(){
+		owl7.trigger("next.owl.carousel");
+	});
+	$(".prev").click(function(){
+		owl7.trigger("prev.owl.carousel");
+	});
 
 
 	// Сотрудники
 	var owl4=$('.team .slider').owlCarousel({
-		items: 2,
+		items: 3,
 		margin: 26,
 		nav: false,
 		dotsEach : true,
 		dots: false,
-		loop: false,
+		loop: true,
+		slideBy: 1,
 		smartSpeed: 750,
 		responsive: {
 	        0:{
@@ -304,7 +314,7 @@ $(function(){
 	            margin: 26
 	        },
 	        768:{
-	            items: 2,
+	            items: 1,
 	            margin: 26
 	        },
 	        1024:{
@@ -312,7 +322,7 @@ $(function(){
 	            margin: 26
 	        },
 	        1200:{
-	            items: 2,
+	            items: 3,
 	            margin: 26
 	        }
 		},
@@ -327,39 +337,87 @@ $(function(){
 	});
 
 
-	// Вакансии
-	$('.vacancies .slider').owlCarousel({
-		items: 1,
-		nav: true,
-		dots: false,
-	navText: [
-		'<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.59577 6.35904L6.41677 10.18C6.83077 10.594 6.83077 11.266 6.41677 11.68C6.00277 12.094 5.33077 12.094 4.91677 11.68L0.302771 7.06604C-0.0882285 6.67504 -0.0882285 6.04204 0.302771 5.65204L4.91677 1.03804C5.33077 0.624039 6.00277 0.624039 6.41677 1.03804C6.83077 1.45204 6.83077 2.12404 6.41677 2.53804L2.59577 6.35904Z"/></svg>',				
-		'<svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.40423 6.35904L0.583229 10.18C0.169229 10.594 0.169229 11.266 0.583229 11.68C0.997229 12.094 1.66923 12.094 2.08323 11.68L6.69723 7.06604C7.08823 6.67504 7.08823 6.04204 6.69723 5.65204L2.08323 1.03804C1.66923 0.624039 0.997229 0.624039 0.583229 1.03804C0.169229 1.45204 0.169229 2.12404 0.583229 2.53804L4.40423 6.35904Z"/></svg>'
-	        
-	    ],
-		dotsEach : true,
-		loop: false,
-		smartSpeed: 750,
-		responsive: {
-	        0:{
-	            items: 1,
-	            margin: 0
-	        },
-	         768:{
-	            items: 2,
-	            margin: 0
-	        },
-	        1024:{
-	            items: 3,
-	            margin: 0
-	        },
-	        1200:{
-	            items: 3,
-	            margin: 0
-	        }
-		},
-		
-	})
+	
+	// Слайдер в каталоге товаров
+
+	$(document).ready(function() {
+
+		var sync1 = $("#sync1");
+		var sync2 = $("#sync2");
+		var slidesPerPage = 3;
+		var syncedSecondary = true;
+	
+		sync1.owlCarousel({
+			items: 1,
+			slideSpeed: 2000,
+			nav: true,
+			autoplay: false, 
+			dots: true,
+			loop: true,
+			responsiveRefreshRate: 200,
+			navText: ['<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.84988 8L9.53779 2.57196C10.1541 1.98384 10.1541 1.02921 9.53779 0.44109C8.92151 -0.14703 7.92118 -0.14703 7.3049 0.44109L0.43653 6.99565C-0.14551 7.5511 -0.14551 8.45032 0.43653 9.00435L7.3049 15.5589C7.92118 16.147 8.92151 16.147 9.53779 15.5589C10.1541 14.9708 10.1541 14.0162 9.53779 13.428L3.84988 8Z" fill="white"/></svg>', '<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.15012 8L0.462208 2.57196C-0.154069 1.98384 -0.154069 1.02921 0.462208 0.44109C1.07849 -0.14703 2.07882 -0.14703 2.6951 0.44109L9.56347 6.99565C10.1455 7.5511 10.1455 8.45032 9.56347 9.00435L2.6951 15.5589C2.07882 16.147 1.07849 16.147 0.462208 15.5589C-0.154069 14.9708 -0.154069 14.0162 0.462208 13.428L6.15012 8Z" fill="white"/></svg>'],
+		}).on('changed.owl.carousel', syncPosition);
+	
+		sync2
+			.on('initialized.owl.carousel', function() {
+				sync2.find(".owl-item").eq(0).addClass("current");
+			})
+			.owlCarousel({
+				items: slidesPerPage,
+				dots: true,
+				nav: true,
+				smartSpeed: 200,
+				margin: 16,
+				slideSpeed: 500,
+				slideBy: slidesPerPage, 
+				responsiveRefreshRate: 100
+			}).on('changed.owl.carousel', syncPosition2);
+	
+		function syncPosition(el) {
+			var count = el.item.count - 1;
+			var current = Math.round(el.item.index - (el.item.count / 2) - .5);
+	
+			if (current < 0) {
+				current = count;
+			}
+			if (current > count) {
+				current = 0;
+			}	
+			
+			sync2
+				.find(".owl-item")
+				.removeClass("current")
+				.eq(current)
+				.addClass("current");
+			var onscreen = sync2.find('.owl-item.active').length - 1;
+			var start = sync2.find('.owl-item.active').first().index();
+			var end = sync2.find('.owl-item.active').last().index();
+	
+			if (current > end) {
+				sync2.data('owl.carousel').to(current, 100, true);
+			}
+			if (current < start) {
+				sync2.data('owl.carousel').to(current - onscreen, 100, true);
+			}
+		}
+	
+		function syncPosition2(el) {
+			if (syncedSecondary) {
+				var number = el.item.index;
+				sync1.data('owl.carousel').to(number, 100, true);
+			}
+		}
+	
+		sync2.on("click", ".owl-item", function(e) {
+			e.preventDefault();
+			var number = $(this).index();
+			sync1.data('owl.carousel').to(number, 300, true);
+		});
+	});
+
+
+
+
 
 
 	// Меню в шапке
@@ -866,6 +924,15 @@ $(window).scroll(function() {
 				duration: 1500,
 				easing: "swing"
 		});
+	});
+
+
+	$('.more-btn a.toggle').click(function(e) {
+		e.preventDefault()
+		$(".products").show();
+		$(this).parent().hide();
+		
+	 
 	});
 
 

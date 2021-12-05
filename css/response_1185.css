@@ -16,13 +16,10 @@
     }
 
 
-    .block
-    {
-        margin-bottom: 60px;
-    }
+  
 
-    .block:nth-child(2n){
-        padding: 60px 0;
+    .block {
+        padding: 70px 0;
     }
 
 
@@ -40,8 +37,6 @@
     .block_head .desc
     {
         line-height: 26px;
-
-        margin-top: 30px;
     }
 
    
@@ -339,22 +334,6 @@
         margin-top: 35px;
     }
 
-
-
-    .products .flex
-    {
-    }
-
-    .products .flex > *
-    {
-    }
-
-    .content .products .flex > *
-    {
-        width: calc(33.333%);
-    }
-
-
     .products .product .sticker
     {
         font-size: 14px;
@@ -534,7 +513,7 @@
 
     .how_we_work .img
     {
-        width: 540px;
+        width: calc(50% + 450px);
     }
 
 
@@ -558,7 +537,7 @@
     .big_boss_quote .info
     {
         width: 100%;
-        max-width: calc(100% - 540px);
+        max-width: calc(100% - 589px);
     }
 
     .big_boss_quote .info .name,
@@ -998,13 +977,7 @@
 
 
         /*новый продукт*/
-    .product_info .cart_link
-    {
-        position: relative;
-        right: 0 !important;
 
-        margin-left: auto;
-    }
     .product_info .cart_link .count
     {
         position: relative;
@@ -1098,6 +1071,53 @@
         margin-bottom:60px;
         margin-top: 0px;
     } 
+
+
+
+
+
+
+
+    .first_section .img {
+        display: block;
+        position: absolute;
+        max-width: 596px;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        right: 0px;
+        margin-top: -89px;
+    }
+    .first_section.block {
+        padding-top: 0;
+    }
+    .first_section .info {
+        margin-left: 0;
+        margin-top: 0;
+        padding-left: 20px;
+    }
+    .order_block .form textarea {
+        width: 100%;
+    }
+    .order_block .form .line {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .order_block .form input {
+        border-right: none;
+        width: 100%;
+        box-shadow: 0px 11px 47px rgba(0, 0, 0, 0.185428);
+        height: 100%;
+    }
+    .order_block .form .field {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 69px;
+    }
+    .order_block .form textarea {
+        box-shadow: 0px 11px 47px rgba(0, 0, 0, 0.185428);
+        height: 100%;
+    }
 
 
 }

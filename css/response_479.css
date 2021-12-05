@@ -13,13 +13,7 @@
         padding:30px 0;
     }
 
-    .block
-    {
-        margin-bottom: 60px;
-    }
-
-
-    .block_head
+     .block_head
     {
         margin-bottom: 25px;
     }
@@ -27,9 +21,11 @@
     .block_head .title
     {
         line-height: 26px;
-        padding-left: 35px;
+        padding-left: 0px;
         margin-right: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
+        max-width: 190px;
+        width: 100%;
     }
     .block_head .title + .all_link{
     }
@@ -239,8 +235,15 @@
 
     .article_info .head .info .title
     {
-        font-size: 22px;
-        line-height: 26px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .article_info .head .data {
+        align-items: flex-start;
+    }
+    .back_link {
+        line-height: 16px;
+        height: 16px;
     }
 
     .article_info .head .info .date
@@ -325,7 +328,8 @@
 
     .checkout_info .form .pay_later
     {
-        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 0;
     }
 
 
@@ -843,9 +847,6 @@
     .news .article .img:before{
         display: none;
     }
-    .news .article .info{
-        padding-bottom:0px;
-    }
     .news .article .inner{
         position: relative;
     }
@@ -853,10 +854,6 @@
     .news .flex > *
     {
         width: calc(100%);
-    }
-
-    .news .item
-    {
     }
 
     .news_category > div
@@ -1153,6 +1150,54 @@
     }
     .text_block table th {
        padding: 10px;
+    }
+    .article_items > * {
+        width: 100%;
+        margin-left: 0;
+    }
+    .article_items {
+        margin-left: 0;
+    }
+    .news_category {
+        margin-left: 0px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .news_category > div {
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .news_top {
+        margin-top: 20px;
+    }
+    .product_info .buy .btn {
+        margin-left: 0px;
+    }
+    .product_info .buy .buy_link {
+        width: 190px;
+    }
+    .product_info .buy .btn {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .product_info-slider {
+        width: 320px;
+    }
+    #sync1.owl-theme .owl-prev {
+        left: 45px;
+    }
+    #sync1.owl-theme .owl-next {
+        right: 49px;
+    }
+    .product_info .head {
+        margin-right: 0;
+    }
+    .product_info .data {
+        margin-top: 0;
+    }
+    .product_info-form {
+        margin-bottom: 20px;
     }
 
 }

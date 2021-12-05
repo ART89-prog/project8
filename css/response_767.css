@@ -16,12 +16,6 @@
     }
 
 
-    .block
-    {
-        margin-bottom: 50px;
-    }
-
-
     .block_head
     {
         margin-bottom: 30px;
@@ -244,8 +238,8 @@
 
     .article_info .head .info
     {
-        width: calc(100% - 160px);
-        padding-bottom: 20px;
+        width: calc(100% - 180px);
+        padding-bottom: 0px;
     }
 
     .article_info .head .info .title
@@ -433,7 +427,7 @@
     {
         font-size: 13px;
         line-height: 52px;
-
+        justify-content: center;
         width: calc(50% - 10px);
         min-width: 0;
         height: 50px;
@@ -513,7 +507,7 @@
 
     .content .products .flex > *
     {
-        width: calc(50% - 20px);
+        width: calc(50% - 22px);
     }
 
     .first_section
@@ -1177,7 +1171,7 @@
     ---------------*/
     footer
     {
-        padding: 45px 0;
+        padding: 35px 0;
     }
 
     footer .cont > * + *
@@ -1207,9 +1201,9 @@
 
     .news_category > div
     {
-        max-width: 50%;
+        max-width: 31%;
 
-        flex: 0 0 50%;
+        flex: 0 0 31%;
     }
 
     .product_info .cont
@@ -1274,14 +1268,10 @@
     .product_info .buy .back_link
     {
         font-size: 14px;
-        line-height: 50px;
     }
 
-    .gallery2 .flex > div
-    {
-        max-width: 50%;
-
-        flex: 0 0 50%;
+    .gallery2 .flex > div {
+        width: calc(100%/2 - 39px);
     }
 
     aside .filter > .cats + .block
@@ -1378,12 +1368,6 @@
     .articles .article .inner{
         position: relative;
     }
-    .articles .article .info{
-        padding:0;
-    }
-    .articles .owl-carousel .owl-item:nth-child(2n) .img{
-        order:0;
-    }
 
     .how_we_work .info .item
     {
@@ -1416,89 +1400,6 @@
     }
 
 
-    /*.cart_link
-    {
-        position: relative;
-        right: 0 !important;
-
-        margin-left: auto;
-    }
-    .cart_link .count
-    {
-        position: relative;
-        top: -15px;
-    }
-
-    .product_info .data
-    {
-        display: flex;
-
-        flex-wrap: wrap;
-        align-items: flex-start;
-    }
-
-    .product_info .cart_link .title
-    {
-        display: none;
-    }
-
-    .product_info .head
-    {
-        width: calc(100% - 100px);
-    }
-
-    .product_info .head
-    {
-        margin-right: 10px;
-    }
-
-    .product_info .image
-    {
-        width: 100%;
-        margin: 0;
-    }
-
-    .product_info .product_name
-    {
-        font-size: 20px;
-        line-height: 26px;
-    }
-
-    .product_info .buy
-    {
-        width: 100%;
-    }
-
-    .product_info .buy .price
-    {
-        font-size: 21px;
-        line-height: 21px;
-
-        display: flex;
-
-        width: 100%;
-        margin-bottom: 10px;
-
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .product_info .buy .back_link
-    {
-        margin: 0;
-    }
-
-    .product_info .buy .buy_link,
-    .product_info .buy .order_link
-    {
-        width: 100%;
-    }
-
-    .product_info .buy .btn
-    {
-        margin-left: 15px;
-        flex-grow: 1;
-    }*/
 
     .mob_header + .main_slider,
     .mob_header + .main_slider3
@@ -1522,6 +1423,48 @@
     }
      .products_category .flex>*{
         width: calc(50% - 23px);
+    }
+    .article_info {
+        padding: 40px 0 40px;
+    }
+    .products_category {
+        padding: 40px 0 40px;
+    }
+    .news {
+        padding: 40px 0 40px;
+    }
+    .products.related {
+        padding-bottom: 40px;
+    }
+    .product_info {
+        padding: 40px 0 0 0;
+    }
+    .article_items > * {
+        width: calc(100%/2 - 27px);
+    }
+    .news_top {
+        flex-direction: column;        
+    }
+    .news_category {
+        margin-top: 15px;
+    }
+    .product_info-form .line {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+    .product_info-form .line > * {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .nice-select .list {
+        width: 100%;
+    }
+    .nice-select {
+        margin-bottom: 15px;
+    }
+    .order_block .form .submit_btn {
+        justify-content: center;
+        width: 100%;
     }
 
 }
