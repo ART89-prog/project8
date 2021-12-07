@@ -335,20 +335,8 @@
 }
 
 
-.main_slider2 .owl-carousel .owl-nav button
-{
-    bottom: -20px;
-}
 
-.main_slider2 .owl-carousel .owl-nav button.owl-prev
-{
-    left: 0;
-}
 
-.main_slider2 .owl-carousel .owl-nav button.owl-next
-{
-    margin-right: -380px !important;
-}
 
 
 .main_slider3 .owl-carousel .owl-nav button

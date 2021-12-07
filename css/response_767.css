@@ -588,25 +588,28 @@
 
 
 
+    .main_slider2 .cont {
+        flex-direction: column;
+    }
     .main_slider2 .info
     {
         line-height: 23px;
-
         width: 100%;
         max-width: 100%;
+        padding: 20px 20px 70px;
     }
-
+    .main_slider2 .owl-dots {
+        display: none;
+    }
+    .main_slider2 .owl-carousel .owl-nav button {
+        left: 50% !important;
+        bottom: -20px;        
+    }
     .main_slider2 .info .title
     {
         font-size: 30px;
         line-height: 34px;
-
         padding-right: 40px;
-    }
-
-    .main_slider2 .info .desc
-    {
-        margin-top: 0;
     }
 
     .main_slider2 .info .link
@@ -616,11 +619,14 @@
 
     .main_slider2 .img
     {
-        width: calc(100% - 40px);
-        height: 480px;
-        margin: 0 20px 30px;
-
         order: -1;
+    }
+
+    .main_slider .slide .desc br {
+        display: none;
+    }
+    .main_slider .owl-carousel .owl-nav button {
+        bottom: 5%;
     }
 
 
@@ -1361,11 +1367,7 @@
 
 
 
-    .mob_header + .main_slider,
-    .mob_header + .main_slider3
-    {
-        margin-top: -30px;
-    }
+
 
     .advantages .flex:after, .articles .cont:after, .reviews .slider_wrap:after, .video_reviews .cont:after, .prices .flex::after, .stocks .slider:after, .team .slider:after,
     .vacancies .slider:after 
@@ -1377,10 +1379,7 @@
         display: none;
     }
 
-    .main_slider {
-        margin-bottom: 0px;
-        margin-top: -50px;
-    }
+
      .products_category .flex>*{
         width: calc(50% - 23px);
     }
@@ -1507,6 +1506,10 @@
     }
     .soc_block .cont {
         align-items: flex-start;
+    }
+    .main_slider .slide .info {
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
 }

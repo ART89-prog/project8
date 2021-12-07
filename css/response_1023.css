@@ -749,7 +749,11 @@
 
 
 
-
+    .main_slider .slide .info {
+        text-align: center;
+        padding-right: 130px;
+        padding-left: 130px;
+    }
     .main_slider .slide .title
     {
         line-height: 38px;
@@ -764,14 +768,19 @@
 
 
 
+    .main_slider2 {
+        background: var(--main_color2);
+    }
     .main_slider2 .info
     {
         line-height: 25px;
-
+        padding: 25px 70px 70px 25px;
+        max-width: 550px;
         width: 100%;
-        max-width: calc(100% - 360px);
     }
-
+    .main_slider2 .owl-dots {
+        display: none;
+    }
     .main_slider2 .info .title
     {
         font-size: 32px;
@@ -780,7 +789,7 @@
 
     .main_slider2 .info .desc
     {
-        margin-top: 0;
+        margin-top: 20px;
     }
 
     .main_slider2 .info .link
@@ -788,32 +797,22 @@
         margin-top: 40px;
     }
 
-
+    .main_slider2 .owl-dots {
+        right: 77%;
+        bottom: 7%;
+        left: 0;
+        margin-right: -0px;
+    }
     .main_slider2 .img
     {
-        width: 307px;
-        height: 272px;
         margin-right: 0;
-    }
-    .main_slider2 .img:after
-    {
-        display: none;
-    }
-    .main_slider2 .img:before
-    {
-        left: -40px;
-
-        width: 178px;
-        height: 300px;
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+        height: 383px;
     }
 
 
-    .main_slider2 .owl-dots
-    {
-        right: 85px;
-
-        margin-right: 0;
-    }
 
     .main_slider2 .owl-carousel .owl-nav button.owl-next
     {
@@ -1619,11 +1618,6 @@
         justify-content: start;
     }
 
-    .main_slider {
-        margin-bottom: 0px;
-        margin-top: -70px;
-    }
-
     .stock_finish div.center{
         width:100%;
         text-align: center;
@@ -1914,6 +1908,9 @@
     }
     .content_flex .title br {
         display: block;
+    }
+    .main_slider .owl-dots {
+        left: 50%;
     }
 
 }

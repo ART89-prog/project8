@@ -62,12 +62,12 @@
 
     .owl-carousel .owl-nav button.owl-prev
     {
-        margin-left: -45px;
+      
     }
 
     .owl-carousel .owl-nav button.owl-next
     {
-        margin-right: -50px;
+        
     }
 
 
@@ -432,26 +432,22 @@
     {
         overflow: hidden;
     }
-    .main_slider2 .info{
-        margin-bottom:50px;
-    }
-    .main_slider2 .info .title
+     .main_slider2 .info .title
     {
         font-size: 26px;
         line-height: 30px;
     }
-
-    .main_slider2 .img
-    {
-        width: calc(100% - 30px);
-        height: 300px;
-        margin: 0 20px 30px;
+    .main_slider .img {
+        height: auto;
+        width: 100%;
+    }
+    .main_slider .slide .info {
+        padding-left: 0;
+        padding-right: 0;
     }
 
 
-    .main_slider3 .img
-    {
-    }
+
 
     .main_slider3 .img:before
     {
