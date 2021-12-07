@@ -2129,11 +2129,18 @@ aside > *:last-child
     object-fit: cover;
 }
 
+
 .first_section2 {
     background: url(../images/tmp/first_section_img2.png);
-    background-size: cover;
     text-align: end;
     padding: 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.first_section2 .cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .first_section2 .info {
     background: none;
@@ -2143,9 +2150,9 @@ aside > *:last-child
 }
 .first_section2 .img {
     display: block;
-    width: 1011px;
-    height: 1011px;
-    margin-left: -748px;
+    width: 859px;
+    height: 673px;
+    margin-left: -280px;
     margin-top: 72px;
     z-index: 1;
 }
@@ -2161,13 +2168,30 @@ aside > *:last-child
 .first_section2 .info:before {
     display: none;
 }
-.first_section2 .info .title {
-    max-width: 100%;
+.first_section2 .info .title
+{
+    position: relative;
+    font-family: var(--font_family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: -1.76744px;
+    color: #fff;
+    max-width: 410px;
+    width: 100%;
+    margin-bottom: 22px;
 }
-.first_section2 .info .desc {
-    max-width: 100%;
+.first_section2 .info .desc
+{
+    font-weight: 400;
+    font-size: var(--font_size);
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 34px;
+    max-width: 398px;
+    width: 100%;
 }
-
 
 
 .button-down {
@@ -2492,97 +2516,24 @@ aside > *:last-child
 }
 
 
-/* .main_slider3
-{
-    position: relative;
-}
 
-
-.main_slider3 .owl-stage-outer
-{
-    overflow: visible !important;
-}
-
-.main_slider3 .cont
-{
-    position: relative;
-
-    display: flex;
-
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-
-.main_slider3 .info
-{
-    line-height: 30px;
-
-    width: 550px;
-    max-width: calc(100% - 593px);
-    padding: 100px 0;
-    padding-right: 50px;
-
-    text-align: right;
-    letter-spacing: .3px;
-}
-
-.main_slider3 .info .title
-{
-    position: relative;
-    padding-bottom: 32px;
-    font-family: var(--font_family);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 51px;
-    line-height: 60px;
-    color: #1A1A1A;
-}
-
-
-
-.main_slider3 .info .desc
-{
-    margin-top: 40px;
-
-    letter-spacing: .35px;
-}
-
-.main_slider3 .info .link
-{
-    margin-left: auto;
-}
-
-.main_slider3 .img
-{
-    position: relative;
-    z-index: 9;
-
-    display: block;
-
+.main_slider3 .slide .info {
+    text-align: start;
+    padding: 79px 79px 234px;
+    background: rgb(14%, 31%, 29%, .9);
+    max-width: 657px;
     width: 100%;
-    height: 570px;
-    margin: 50px 0;
 }
-
-
-
-.main_slider3 .img > *
-{
-    object-fit: contain;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-} */
-
-
+.main_slider.main_slider3 .slide .cont {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.main_slider.main_slider3 .slide .desc {
+    max-width: 369px;
+}
+.main_slider.main_slider3 .slide .desc br {
+    display: none;
+}
 
 .advantages {
     padding: 130px 0 120px;
@@ -2851,6 +2802,7 @@ aside > *:last-child
 .reviews_top {
     width: 382px;
     margin-right: 90px;
+    flex-shrink: 0;
 }
 
 .reviews .owl-item
@@ -2872,7 +2824,7 @@ aside > *:last-child
 }
 .reviews .owl-carousel.owl-loaded {
     display: block;
-    width: calc(100% - 620px);
+    width: 100%;
 }
 
 .reviews .block_head {
@@ -2980,6 +2932,7 @@ aside > *:last-child
     opacity: 1;
     transform: scale(1.26);
     pointer-events: auto;
+    z-index: 1;
 }
 
 
@@ -3386,10 +3339,12 @@ aside > *:last-child
 }
 .documents_top {
     margin-right: 90px;
+    width: 382px;
+    flex-shrink: 0;
 }
 .documents .owl-carousel.owl-loaded {
     display: block;
-    width: calc(100% - 472px);
+    width: 100%;
 }
 .documents .owl-item
 {
@@ -3823,6 +3778,7 @@ aside > *:last-child
 .stocks_top {
     width: 382px;
     margin-right: 90px;
+    flex-shrink: 0;
 }
 .stocks .owl-item
 {
@@ -3842,7 +3798,7 @@ aside > *:last-child
 }
 .stocks .owl-carousel.owl-loaded {
     display: block;
-    width: calc(100% - 620px);
+    width: 100%;
 }
 .stocks .block_head {
     margin-bottom: 30px;

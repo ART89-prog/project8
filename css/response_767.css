@@ -510,13 +510,6 @@
         width: calc(50% - 22px);
     }
 
-    .first_section
-    {
-        margin-top: -30px;
-    }
-
-
-
     .first_section .info
     {
         width: 100%;
@@ -1510,6 +1503,25 @@
     .main_slider .slide .info {
         padding-left: 60px;
         padding-right: 60px;
+    }
+    .first_section2 .cont {
+        flex-direction: column-reverse;
+    }
+    .first_section2 .info {
+        background: none;
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 245px;
+    }
+    .first_section2 .img {
+        width: 636px;
+        height: 500px;
+        margin-top: -250px;
+        margin-left: -190px;
+    }
+    .first_section2 .info .title {
+        font-size: 33px;
+        line-height: 36px;
     }
 
 }

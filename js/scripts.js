@@ -309,7 +309,7 @@ $(function(){
 
 	// Сотрудники
 	var owl8=$('.team .slider').owlCarousel({
-		items: 3,
+		items: 2,
 		margin: 26,
 		nav: false,
 		dotsEach : true,
@@ -327,11 +327,11 @@ $(function(){
 	            margin: 26
 	        },
 	        1024:{
-	            items: 3,
+	            items: 2,
 	            margin: 26
 	        },
 	        1200:{
-	            items: 3,
+	            items: 2,
 	            margin: 26
 	        }
 		},

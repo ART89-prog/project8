@@ -1913,4 +1913,28 @@
         left: 50%;
     }
 
+    .first_section2 .info {
+        background: none;
+        width: calc(100% - 372px);
+        padding-top: 40px;
+        padding-bottom: 90px;
+    }
+    .first_section2 .img {
+        width: 618px;
+        height: 490px;
+        margin-top: 0;
+    }
+    .first_section2 .info .desc {
+        max-width: 100%;
+    }
+    .first_section2 .info .title {
+        max-width: 100%;
+    }
+    .first_section2 .info .desc br {
+        display: none;
+    }
+    .first_section2 .info .title br {
+        display: none;
+    }
+
 }

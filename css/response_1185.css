@@ -1027,23 +1027,9 @@
     .first_section .img {
         max-width: 560px;
     }
-    .first_section2 .cont {
-        flex-direction: column;
-    }
-    .first_section2 .info {
-        background: none;
-        width: calc(100% - 748px);
-        padding-top: 175px;
-        padding-bottom: 224px;
-    }
-    .first_section2 .img {
-        /* width: 1296px;
-        height: 1012px;
-        margin-left: -748px;
-        margin-top: 72px;
-        z-index: 1; */
-        max-width: 800px;
-    }
+
+
+   
 
     .order_block .form textarea {
         width: 100%;
