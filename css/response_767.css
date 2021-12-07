@@ -1098,7 +1098,7 @@
 
     .quiz_poll .img
     {
-        margin: 35px auto 0;
+        height: 320px;
     }
 
 
@@ -1461,6 +1461,32 @@
     .articles .block_head {
         margin-bottom: 20px;
         max-width: 100%;
+    }
+    .upload .cont {
+        padding: 35px;
+    }
+    .upload {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .director_letter .info {
+        margin-left: 0;
+    }
+    .quiz_poll .quiz_poll-wrapper {
+        flex-direction: column-reverse;
+    }
+    .quiz_poll .img {
+        width: 100%;
+    }
+    .works .owl-item.active.center {
+        transform: scale(1);
+    }
+    .works_item {
+        width: 100%;
+        height: 323px;
+    }
+    .works .owl-carousel.owl-loaded {
+        margin-top: 35px;
     }
 
 }
