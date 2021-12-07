@@ -18,15 +18,6 @@
         margin-bottom: 25px;
     }
 
-    .block_head .title
-    {
-        line-height: 26px;
-        padding-left: 0px;
-        margin-right: 10px;
-        padding-bottom: 0px;
-        max-width: 190px;
-        width: 100%;
-    }
     .block_head .title + .all_link{
     }
 
@@ -110,6 +101,8 @@
     .form .submit_btn
     {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
 
@@ -940,12 +933,23 @@
 
     .three_photo .photo .img1
     {
-        width: 190px;
+        width: 220px;
+        height: 240px;
     }
+    .three_photo .photo .img2
+    {
+        width: 110px;
+        height: 120px;
+    }
+    .three_photo .photo .img3
+    {
+        width: 110px;
+        height: 120px;
+    }
+
 
     .how_we_work .img
     {
-
         order: -1;
     }
 
@@ -964,15 +968,11 @@
         height: 50px;
     }
 
-    .how_we_work .info .item:nth-child(2n):after
-    {
-        left: 20px;
-    }
-
     .how_we_work .info .item
     {
         min-height: 100px;
-        padding-left: 90px;
+        padding-left: 68px;
+        margin-bottom: 15px;
     }
 
     .director_letter .img
@@ -1056,21 +1056,15 @@
 
     .btns{
         flex-wrap: wrap;
-            justify-content: center;
+        justify-content: center;
     }
 
     .main_slider3 .info .link {
         width: 100%;
         order:-1;
-            margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 
-    .about .info, .big_boss_quote .info, .about_video .info{
-        padding:20px;
-    }
-    .articles .slider, .reviews .slider_wrap, .video_reviews .slider, .team .slider, .stocks .slider{
-        padding-bottom: 45px;
-    }
 
     .stocks .stock .name a{
         font-size:20px;
@@ -1192,6 +1186,70 @@
     }
     .product_info-form {
         margin-bottom: 20px;
+    }
+    .image_tips .image .info1 {
+        top: 41%;
+        left: calc(21.5% + 89px);
+    }
+    .image_tips .image .info3 {
+        top: 42%;
+        left: calc(40% + -20px);
+    }
+    .image_tips .image .info2 {
+        top: 44%;
+        right: calc(12% + 114px);
+        left: auto;
+    }
+    .order_block .form .field {
+        margin-bottom: 15px;
+        height: 53px;
+    }
+    .order_block .form .submit_btn {
+        height: 53px;
+    }
+    .order_block .form {
+        padding: 15px;
+    }
+    .order_block .block_head .desc br
+    {
+        display: none;
+    }
+    .order_block.block {
+        padding: 30px 0;
+    }
+    .block {
+        padding: 30px 0;
+    }
+    .big_boss_quote .info {
+        padding: 0;
+    }
+    .big_boss_quote .info .block_head .title:before {
+        display: none;
+    }
+    .big_boss_quote .info .block_head .title {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .soc_block .widget {
+        padding: 0;
+    }
+    .soc_block-wrapper {
+        margin-bottom: 20px;
+    }
+    .upload .cont:before {
+        display: none;
+    }
+    .upload {
+        margin: 0;
+    }
+    .before_after .item {
+        height: 300px;
+    }
+    .three_photo .cont {
+        margin-top: 30px;
+    }
+    .soc_block .soc_link {
+        font-size: 15px;
     }
 
 }

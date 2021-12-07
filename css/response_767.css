@@ -75,8 +75,8 @@
     ---------------*/
     .mob_header
     {
-        margin-bottom: 30px;
-        padding: 15px 0 0;
+        margin-bottom: 0px;
+        padding: 0;
     }
 
 
@@ -521,32 +521,23 @@
     {
         width: 100%;
         max-width: 100%;
-        padding-top: 20px;
-        padding-left: 0;
-        padding-bottom: 0px;
-
-        text-align: center;
+        padding: 30px;
+        text-align: flex-start;
     }
 
     .first_section .info .title
     {
         font-size: 30px;
         line-height: 34px;
-
-        padding-right: 40px;
+        padding-bottom: 0;
+    }
+    .first_section .info .desc {
+        margin-bottom: 0;
     }
 
-    .first_section .img
-    {
-        margin: 50px auto 35px;
-        top:0;
-        order: -1;
-    }
-
-    .first_section:after
+      .first_section:after
     {
         width: 100%;
-
         border-radius: 0;
     }
 
@@ -796,15 +787,12 @@
 
 
 
-    .prices .flex > *
-    {
-        width: calc(50%);
+    .prices .item {
+        padding: 20px 15px 25px;
     }
-    .prices .item
-    {
-        padding:10px;
+    .prices .item:nth-child(2) {
+        padding: 20px 15px 25px;
     }
-
     .prices .item .name
     {
         font-size: 19px;
@@ -990,30 +978,11 @@
     {
         width: 100%;
         max-width: 100%;
-        margin-bottom: 35px;
-        padding-bottom: 90%;
+        margin-top: 35px;
+        padding-bottom: 50%;
+        height: 480px;
 
     }
-
-
-
-    .image_tips .image img
-    {
-    }
-
-    .image_tips .image .info
-    {
-        top: 100%;
-        right: 0;
-        left: 0;
-
-        width: 100%;
-
-        transform: none;
-
-        box-shadow: 0 5px 24px rgba(0, 0, 0, .5);
-    }
-
 
 
     .three_photo .block_head
@@ -1257,8 +1226,12 @@
         font-size: 14px;
     }
 
+    .gallery2 .flex  {
+        margin-left: -20px;
+    }
     .gallery2 .flex > div {
-        width: calc(100%/2 - 39px);
+        width: calc(100%/2 - 20px);
+        margin-left: 20px;
     }
 
     aside .filter > .cats + .block
@@ -1488,21 +1461,53 @@
     .works .owl-carousel.owl-loaded {
         margin-top: 35px;
     }
+    .order_block .form {
+        padding: 30px;
+    }
+    .button-down svg {
+        margin-top: 14px;
+    }
+    .button-down {
+        width: 60px;
+        height: 60px;
+        bottom: -25px;
+    }
+    .first_section .info {
+        padding: 30px 30px 55px 30px;
+    }
+    .about .img {
+        margin-bottom: 20px;
+    }
+    .about .img::before {
+        top: 20px;
+        left: -40px;
+    }
+    .how_we_work .img::before {
+        display: none;
+    }
+    .services_top {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .block {
+        padding: 50px 0;
+    }
+    .gallery2 .item .info .desc {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .gallery2 .item .info {
+        padding: 20px;
+    }
+    .about_video .info {
+        padding: 15px 0;
+    }
+    .about_video .block_head {
+        margin-bottom: 0;
+    }
+    .soc_block .cont {
+        align-items: flex-start;
+    }
 
 }
 
-
-@media (max-width:580px)
-{
-    .three_photo .photo .img1
-    {
-        width: 210px;
-        height: 250px;
-    }
-    .three_photo .photo .img2,
-    .three_photo .photo .img3
-    {
-        width: 100px;
-        height: 125px;
-    }
-}

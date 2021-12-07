@@ -127,6 +127,10 @@ $(function(){
 				items: 1,
 				margin: 20
 			},
+			480:{
+				items: 1,
+				margin: 20
+			},
 			768:{
 				items: 2,
 				margin: 20
@@ -154,7 +158,7 @@ $(function(){
 
 	var owl4 =$('.works .slider').owlCarousel({
 		items: 3,       
-		margin: 0,
+		margin: 10,
 		nav: false,
 		dotsEach: true,
 		dots: false,
@@ -276,19 +280,19 @@ $(function(){
 		smartSpeed: 750,
 		responsive: {
 	        0:{
-	            items: 1,
+	            items: 2,
 	            margin: 0
 	        },
 	        768:{
-	            items: 5,
+	            items: 4,
 	            margin: 0
 	        },
 	        1024:{
-	            items: 3,
+	            items: 5,
 	            margin: 0
 	        },
 	        1200:{
-	            items: 8,
+	            items: 5,
 	            margin: 0
 	        }
 		}
@@ -326,7 +330,7 @@ $(function(){
 	            margin: 26
 	        },
 	        1200:{
-	            items: 2,
+	            items: 3,
 	            margin: 26
 	        }
 		},
