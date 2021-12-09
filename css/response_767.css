@@ -752,6 +752,12 @@
 
 
 
+    
+    
+
+
+
+
     .big_boss_quote .cont:after
     {
         display: none;
@@ -1543,6 +1549,16 @@
         position: relative;
         width: 100%;
         height: auto;
+    }
+    .partners .flex
+    {
+        margin-left: -20px;
+    }
+
+    .partners .flex > *
+    {
+        width: calc(33.333% - 20px);
+        margin-left: 20px;
     }
 
 }

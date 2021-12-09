@@ -346,6 +346,44 @@ $(function(){
 	});
 
 
+	// Вакансии
+	var owl9 =$('.vacancies .slider').owlCarousel({
+		items: 1,
+		nav: false,
+		dots: false,	
+		dotsEach : true,
+		loop: true,
+		margin: 26,
+		smartSpeed: 750,
+		responsive: {
+			0:{
+				items: 1,
+				margin: 26
+			},
+			768:{
+				items: 2,
+				margin: 26
+			},
+			1024:{
+				items: 3,
+				margin: 26
+			},
+			1200:{
+				items: 3,
+				margin: 26
+			}
+		},
+		
+	})
+
+	$(".next").click(function(){
+		owl9.trigger("next.owl.carousel");
+	});
+	$(".prev").click(function(){
+		owl9.trigger("prev.owl.carousel");
+	});
+
+
 	
 	// Слайдер в каталоге товаров
 

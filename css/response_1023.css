@@ -1947,5 +1947,16 @@
         margin-left: 0;
         margin-right: 0;
     }
+        .partners .flex
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+    .partners .flex > *
+    {
+        width: calc(20% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
 
 }
