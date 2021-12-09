@@ -68,6 +68,7 @@ button[type=reset]
 :root
 {
     --bg: #f2f2f2;
+    --bg2: #F3ECDE;
     --aside_width: 237px;
     --scroll_width: 17px;
     --text_color: #938261;
@@ -1261,8 +1262,8 @@ header .menu .item > a span:after {
     margin-top: -2px;
     content: '';
     transform: rotate(-135deg);
-    border-bottom: 1px solid #fff;
-    border-left: 1px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
 }
 
 header .menu .item:hover > a span:after{
@@ -1318,15 +1319,15 @@ header .menu .sub_menu a {
     text-transform: uppercase;
     border-radius: 0;
     flex-wrap: nowrap;
+    border-bottom: 1px solid rgba(0, 0, 0, .18);
 }
 
-header .menu .sub_menu a:hover,
+/* header .menu .sub_menu a:hover,
 header .menu .sub_menu a.active
 {
     color: var(--main_color2);
-
     background:#fff;
-}
+} */
 
 header .menu .sub_menu div:first-child a:hover
 {
@@ -2537,7 +2538,7 @@ aside > *:last-child
 
 .advantages {
     padding: 130px 0 120px;
-    background: #F2F2F2;
+    background: var(--bg);
 }
 .advantages .cont
 {
@@ -2784,7 +2785,7 @@ aside > *:last-child
     top: 40px;
     right: -40px;
     width: 412px;
-    height: 582px;
+    height: 593px;
     background: var(--main_color2);
     content: "";
     z-index: -1;
@@ -2884,7 +2885,7 @@ aside > *:last-child
 
 
 .works {
-    background: #F2F2F2;    
+    background: var(--bg);    
 }
 .works .cont {
     display: flex;
@@ -3514,10 +3515,10 @@ aside > *:last-child
     position: absolute;
     content: "";
     width: 384px;
-    height: 594px;
-    top: 125px;
-    left: -216px;
-    background: url(../images/tmp/big_boss_quote_img-bg.jpg);
+    height: 814px;
+    top: 40px;
+    left: -40px;
+    background: var(--main_color2);
 }
 .director_letter .img > *
 {
@@ -3769,7 +3770,7 @@ aside > *:last-child
 
 
 .stocks {
-    background: #F3ECDE;
+    background:var(--bg2);
 }
 .stocks .cont {
     display: flex;
@@ -4327,7 +4328,7 @@ aside > *:last-child
 }
 
 .soc_block  {
-    background: #F3ECDE;
+    background: var(--bg2);
 }
 .soc_block .desc
 {
@@ -4406,7 +4407,7 @@ aside > *:last-child
 {
     width: 632px;
     padding: 45px;
-    background: #F2F2F2;
+    background: var(--bg);
     position: relative;
 }
 .soc_block .widget:after
@@ -5152,6 +5153,7 @@ aside > *:last-child
     font-size: 35px;
     line-height: 40px;
     letter-spacing: -1.54651px;
+    margin-left: 20px;
 }
 
 .cart_info .cart_total .checkout_link
@@ -5197,6 +5199,9 @@ aside > *:last-child
 
     text-align: right;
 }
+.checkout_info .form .line input {
+    box-shadow: 0px 11px 47px rgba(0, 0, 0, 0.185428);
+}
 
 .checkout_info .form .agree
 {
@@ -5225,6 +5230,7 @@ aside > *:last-child
     line-height: 40px;
     letter-spacing: -1.54651px;
     color: var(--main_color4);
+    white-space: nowrap;
 }
 
 .checkout_info .form .submit
@@ -5237,9 +5243,11 @@ aside > *:last-child
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
-
+.checkout_info .form .bottom {
+    flex-wrap: nowrap;
+}
 .checkout_info .form .submit_btn
 {
     font-size: 14px;
@@ -5283,7 +5291,7 @@ button:disabled
     font-size: 14px;
     line-height: 40px;
     display: inline-block;
-    min-width: 151px;
+    min-width: 155px;
     height: 40px;
     margin-left: 28px;
     margin-right: 7px;
@@ -5903,7 +5911,7 @@ button:disabled
     content: "";
     top: 0;
     left: -100%;
-    background: #F2F2F2;
+    background: var(--bg);
     z-index: 0;
 }
 .upload .block_head .title {
@@ -6105,7 +6113,7 @@ button:disabled
 
 
 .before_after {
-    background: #F3ECDE;
+    background: var(--bg2);
 }
 .before_after .cont
 {
@@ -6129,8 +6137,6 @@ button:disabled
 .before_after .item
 {
     position: relative;
-
-    overflow: hidden;
     height: 596px;
     width: 698px;
     max-width: 100%;
@@ -6140,10 +6146,10 @@ button:disabled
     top: 40px;
     right: -40px;
     width: 698px;
-    height: 582px;
+    height: 597px;
     background: var(--main_color2);
     content: "";
-    z-index: -1;
+    z-index: 0;
 }
 
 
@@ -6504,7 +6510,7 @@ button:disabled
 
 
 .three_photo {
-    background: #F3ECDE;
+    background: var(--bg2);
 }
 .three_photo .cont
 {
@@ -6529,7 +6535,7 @@ button:disabled
     grid-gap: 0;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    width: 813px;
+    width: 700px;
     margin-left: -130px;
 }
 
@@ -6586,8 +6592,8 @@ button:disabled
 {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
+    align-items: center;
+    align-content: center;
     flex-wrap: nowrap;
 }
 
@@ -6612,16 +6618,7 @@ button:disabled
     flex-shrink: 0;
     flex-wrap: wrap;
 }
-.socials_block .socials:before{
-    width: 102px;
-    height: 12px;
-    background-color: var(--main_color1);
-    content: "";
-    display: block;
-    position: absolute;
-    top: 67px;
-    left: -51px;
-}
+
 
 .socials_block .socials a
 {
@@ -6724,7 +6721,7 @@ button:disabled
 
 
 .quiz_poll {
-    background: #F3ECDE;
+    background: var(--bg2);
 }
 .quiz_poll .quiz_poll-wrapper {
     display: flex;
@@ -6751,6 +6748,7 @@ button:disabled
     align-self: center;
     padding-left: 39px;
     padding-right: 30px;
+    width: calc(100% - 409px);
 }
 .quiz_poll .step
 {
@@ -6782,7 +6780,9 @@ button:disabled
     line-height: 26px;
     margin-top: 16px;
 }
-
+.quiz_poll .step .links > * {
+    margin-left: 20px;
+}
 .quiz_poll .step .form
 {
     margin-top: 25px;
@@ -6831,12 +6831,10 @@ button:disabled
     display: flex;
     width: 122px;
     height: 122px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 20px;
     background: var(--main_color2);
     justify-content: center;
     align-items: center;
+    margin-right: 37px;
 }
 .quiz_poll .success .title
 {
@@ -7688,7 +7686,7 @@ footer .creator img {
 
 
 .gallery2 {
-    background: #F2F2F2;
+    background: var(--bg);
 }
 .gallery2 .flex
 {
@@ -8018,6 +8016,9 @@ aside .submit .reset i:after
     /* margin-top:-120px; */
 }
 
+.block:nth-child(2n) {
+    background: var(--bg2);
+}
 
 .block:nth-child(2n).main_slider{
     padding:0;
@@ -8217,16 +8218,17 @@ header .menu .item .item:hover .sub_menu{
 header .menu .sub_menu a.sub_link span:after {
     position: absolute;
     top: 50%;
-    right: -1px;
+    right: -90%;
     display: block;
-    width: 7px;
-    height: 7px;
-    margin-top: -5px;
+    width: 5px;
+    height: 5px;
+    margin-top: -3px;
     content: '';
     transform: rotate(-135deg);
-    border-bottom: 1px solid #fff;
-    border-left: 1px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
 }
+
 header .flexMenu-popup .item .item .sub_menu{
     left: calc(-100% + 30px);
 }
@@ -8588,7 +8590,7 @@ aside .block .data.range{
 .block_checkform{
     margin-top:25px;
     display: flex;
-    justify-content: flex-end;    
+    justify-content: space-between;    
 }
 .cart_total_item{
     display: flex;
@@ -8603,35 +8605,22 @@ aside .block .data.range{
 }
 
 .promocode_form button{
-    line-height: 50px;
-    margin-left: -40px;
     color: #fff;
-    font-size: var(--font_size);
-    font-weight: 500;
-    display: inline-block;
-    height: 55px;
-    padding: 0 20px;
+    font-size: var(--font_size);   
     text-align: center;
     vertical-align: top;
-    text-decoration: none;
-    border-radius: 4px;
     background:  var(--main_color2);
-    font-family: var(--font_family);
-    text-transform: uppercase;
+    font-family: var(--font_family);    
     border: none;
-
-    color:#fff;
-    line-height: 53px;
+    line-height: 39px;
     display: inline-block;
-    height: 53px;
+    height: 39px;
     padding: 0 40px;
     vertical-align: top;
     text-decoration: none;
-    border: 1px solid var(--main_color2);
     font-size: 14px;
     text-align: center;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .promocode_result.succces{
@@ -8644,7 +8633,7 @@ aside .block .data.range{
 }
 
 .promocode_form .input{
-    height: 53px;
+    height: 39px;
 }
 
 .promocode_result.error{

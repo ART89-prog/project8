@@ -1523,6 +1523,27 @@
         font-size: 33px;
         line-height: 36px;
     }
+    .before_after .item::before {
+        height: 463px;
+    }
+    .image_tips .image .info {
+        top: 100%;
+        right: 0;
+        left: 0;
+        width: 100%;
+        transform: none;
+        box-shadow: 0 5px 24px rgb(0 0 0 / 50%);
+    }
+    .image_tips .image img {
+        display: block;
+        width: 100%;
+        margin-right: 100%;
+    }
+    .image_tips .image {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
 
 }
 

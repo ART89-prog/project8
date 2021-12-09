@@ -553,13 +553,6 @@
         line-height: 38px;
     }
 
-
-
-    .checkout_info .form .agree
-    {
-        width: auto;
-    }
-
     .checkout_info .form .submit
     {
         margin-top: 15px;
@@ -1620,7 +1613,6 @@
 
     .stock_finish div.center{
         width:100%;
-        text-align: center;
     }
 
     .new_contact{
@@ -1935,6 +1927,25 @@
     }
     .first_section2 .info .title br {
         display: none;
+    }
+    .before_after .item::before {
+        width: 360px;
+        height: 586px;
+    }
+    .checkout_info .form .bottom {
+        flex-wrap: wrap;
+    }
+    .checkout_info .form .total_price {
+        display: block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .checkout_info .form .submit_btn {
+        margin-left: 20px;
+    }
+    .checkout_info .form .pay_later {
+        margin-left: 0;
+        margin-right: 0;
     }
 
 }
