@@ -848,21 +848,6 @@
         margin-top: 25px;
     }
 
-    .main_slider3 .info .link
-    {
-    }
-
-
-    .main_slider3 .owl-dots
-    {
-        top: 310px;
-        left: 190px;
-    }
-
-    .main_slider3 .owl-carousel .owl-nav button
-    {
-        top: 291px;
-    }
 
 
 
@@ -1958,5 +1943,27 @@
         margin-bottom: 30px;
         margin-left: 30px;
     }
+    .first_section.block {
+        margin-top: 0;
+        padding: 0;
+    }
+    .contacts_block .map:after {
+        height: 291px;
+    }
+    .big_boss_quote .img:before {
+        width: 315px;;
+    }
+    .soc_block-wrapper {
+        order: -1;
+    }
+    .vacancies .cont {
+        flex-direction: column;
+    }
+    .vacancies_top {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
 
 }

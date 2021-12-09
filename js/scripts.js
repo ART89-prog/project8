@@ -54,22 +54,29 @@ $(function(){
 
 
 	// Основной слайдер на главной
-	var owl8 =$('.main_slider3 .slider').owlCarousel({
+	var owl12 =$('.main_slider3 .slider').owlCarousel({
 		items: 1,
 		margin: 0,
-		nav: true,
+		nav: false,
 		dots: false,		
 		loop: true,
 		smartSpeed: 750,
 		autoplay: true,
+		addClassActive : true,
+		dotsContainer: '#carousel-custom-dots',
 		autoplayTimeout: 5000,		
 	})
-	
-	$(".next").click(function(){
-		owl8.trigger("next.owl.carousel");
+
+	 // Custom Button
+	$('.customNextBtn').click(function() {
+	    owl12.trigger('next.owl.carousel');
 	});
-	$(".prev").click(function(){
-		owl8.trigger("prev.owl.carousel");
+	$('.customPreviousBtn').click(function() {
+	    owl12.trigger('prev.owl.carousel');
+	});
+
+	$('.owl-dot-custom').click(function () {
+		owl12.trigger('to.owl.carousel', [$(this).index(), 300]);
 	});
 
 
@@ -272,7 +279,7 @@ $(function(){
 
 	// Документы
 	var owl7 =$('.documents .slider').owlCarousel({
-		items: 8,
+		items: 4,
 		nav: false,
 		dots: false,
 		dotsEach : false,
@@ -289,11 +296,11 @@ $(function(){
 	            margin: 0
 	        },
 	        1024:{
-	            items: 5,
+	            items: 4,
 	            margin: 0
 	        },
 	        1200:{
-	            items: 5,
+	            items: 4,
 	            margin: 0
 	        }
 		}

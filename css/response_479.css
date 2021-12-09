@@ -449,16 +449,6 @@
 
 
 
-    .main_slider3 .img:before
-    {
-        top: -20px;
-        left: -20px;
-    }
-
-    .main_slider3 .owl-dots
-    {
-        left: 180px;
-    }
 
     .articles .article .date{
         margin-top:0;

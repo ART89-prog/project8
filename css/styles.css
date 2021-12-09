@@ -2360,7 +2360,11 @@ aside > *:last-child
 .main_slider .slide
 {
     position: relative;
-
+    overflow: hidden;
+}
+.main_slider3 .slide
+{
+    position: relative;
     overflow: hidden;
 }
 
@@ -2396,6 +2400,23 @@ aside > *:last-child
     object-fit: cover;
 }
 
+.main_slider3 .slide .bg
+{
+    position: absolute;
+    z-index: 1;
+    top: -106px;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+
+    object-fit: cover;
+}
+
 .main_slider .slide .cont
 {
     position: relative;
@@ -2419,6 +2440,7 @@ aside > *:last-child
     width: 100%;
     text-align: end;
 }
+
 .main_slider .slide .title
 {
     position: relative;
@@ -2520,24 +2542,43 @@ aside > *:last-child
 }
 
 
+.main_slider3 .slide .bg {
+    z-index: -1;
+}
 
 .main_slider3 .slide .info {
     text-align: start;
-    padding: 79px 79px 234px;
+    padding: 79px 79px 85px;
     background: rgb(14%, 31%, 29%, .9);
     max-width: 657px;
     width: 100%;
+    z-index: 1;
+    margin-top: 106px;
 }
-.main_slider.main_slider3 .slide .cont {
-    flex-direction: row;
-    justify-content: flex-start;
+.main_slider3 .slide .title {
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 46px;
+    letter-spacing: -2.07674px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
 }
-.main_slider.main_slider3 .slide .desc {
+.main_slider3 .slide .desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
     max-width: 369px;
+    width: 100%;
+    margin-bottom: 39px;
 }
-.main_slider.main_slider3 .slide .desc br {
-    display: none;
+.navigation {
+    margin-top: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 
 .advantages {
     padding: 130px 0 120px;
@@ -3574,7 +3615,7 @@ aside > *:last-child
 }
 .vacancies_top {
     width: 382px;
-    margin-right: 90px;
+    margin-left: 90px;
     flex-shrink: 0;
 }
 .vacancies .owl-item
@@ -3755,6 +3796,7 @@ aside > *:last-child
     padding: 81px 60px 103px 0;
     background: #fff;
     box-shadow: -16px 15px 31px var(--box-shadow-color);
+    z-index: 1;
 }
 .contacts_block .info::before {
     position: absolute;
@@ -3857,17 +3899,17 @@ aside > *:last-child
     display: block;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
 }
 .contacts_block .map:after {
     position: absolute;
     content: "";
-    width: 196px;
+    width: 111px;
     height: 494px;
     right: -110px;
     top: 86px;
     background: var(--main_color2);
-    z-index: -2;
+    z-index: 0;
 }
 
 
@@ -5887,11 +5929,7 @@ button:disabled
 
 
 
-.upload {
-    background: #fff;
-    margin-top: 120px;
-    margin-bottom: 130px;
-}
+
 .upload .cont
 {
     position: relative;
@@ -5900,7 +5938,8 @@ button:disabled
     align-items: flex-start;
     align-content: flex-start;
     flex-wrap: wrap;
-    padding: 81px 20px 88px 61px;   
+    padding: 81px 20px 88px 61px;  
+    background-color: #fff; 
 }
 .upload .cont:before {
     width: 196px;
@@ -5911,16 +5950,6 @@ button:disabled
     left: -196px;
     background: var(--main_color2);
     z-index: 1;
-}
-.upload .cont::after {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    content: "";
-    top: 0;
-    left: -100%;
-    background: var(--bg);
-    z-index: 0;
 }
 .upload .block_head .title {
     padding-bottom: 25px;
@@ -7784,39 +7813,58 @@ footer .creator img {
 
     align-items: stretch;
 }
+.main_slider3 .owl-item .owl-dot-custom
+{
+    background: rgba(255, 255, 255, .31);
+    width: 12px;
+    height: 12px;
+    margin-top: 0;
+    bottom: 0;
+    top: 0;
+    list-style: none;
+    border-radius: 50%;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.main_slider3 .owl-item .owl-dot-custom.active {
+    display: block;
+    width: 19px;
+    height: 19px;
+    background: var(--main_color4);
+}
+.main_slider3 .owl-dots {
+    position: relative;
+    left: 0;
+    margin-top: 0;
+}
 
 .btns
 {
     display: flex;
-
-    margin-top: 60px;
 }
-
 .customNextBtn
 {
     display: flex;
-    width: 70px;
-    height: 70px;
+    width: 43px;
+    height: 43px;
     cursor: pointer;
     justify-content: center;
-    align-items: center;
-    background: var(--main_color2);
-
+    align-items: center;   
+    background: #FFFFFF;
+    border-radius: 1.56364px;
 }
 
 .customPreviousBtn
 {
     display: flex;
-
-        width: 70px;
-    height: 70px;
-    background: var(--main_color2);
-
+    width: 43px;
+    height: 43px;
+    background: #DCB251;
+    border-radius: 1.56364px;   
     cursor: pointer;
-
     justify-content: center;
     align-items: center;
-        opacity: 0.85;
+    margin-right: 10px;
 }
 
 
@@ -8733,6 +8781,19 @@ aside .cats label:after{
     height:20px;
 }
 
+
+
+
+.main_slider3 .owl-carousel .owl-nav button {
+    top: 69%;
+}
+.main_slider3 .owl-carousel .owl-nav button.owl-prev {
+    left: 24%;
+    margin-left: 0;
+}
+.main_slider .slide .info {
+    padding-right: 140px;
+}
 
 
 

@@ -419,35 +419,9 @@
         padding-right: 60px;
     }
 
-    .main_slider3 .info .title
-    {
-        font-size: 36px;
-        line-height: 40px;
-    }
-
-    .main_slider3 .info .desc
-    {
-        margin-top: 30px;
-    }
-
-    .main_slider3 .info .link
-    {
-    }
 
 
-    .main_slider3 .owl-dots
-    {
-        top: 385px;
-        bottom: auto;
-        left: 280px;
 
-        margin-left: 0;
-    }
-
-    .main_slider3 .owl-carousel .owl-nav button
-    {
-        top: 365px;
-    }
 
 
 
@@ -1076,5 +1050,6 @@
         width: 280px;
         height: 241px;
     }
+    
 
 }

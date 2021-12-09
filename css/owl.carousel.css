@@ -337,38 +337,15 @@
 
 
 
-
-
-.main_slider3 .owl-carousel .owl-nav button
-{
-    top: 422px;
-    bottom: auto;
-}
-
-.main_slider3 .owl-carousel .owl-nav button.owl-next
-{
-    right: auto;
-    left: 0;
-
-    margin-right: 0;
-}
-
-
-
 .owl-dots
 {
     position: absolute;
-    bottom: 5px;
     left: 50%;
-
     display: flex;
-
     width: auto;
     height: 13px;
     margin-top: auto;
-
     transform: translateX(-50%);
-
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -422,15 +399,4 @@
 }
 
 
-.main_slider3 .owl-dots
-{
-    top: 441px;
-    bottom: auto;
 
-    margin-left: -256px;
-}
-
-.main_slider3 .owl-dot
-{
-    background: #fff;
-}
