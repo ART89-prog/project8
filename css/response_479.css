@@ -763,8 +763,8 @@
 
     .quiz_poll .step .success .desc
     {
-        font-size: 19px;
-        line-height: 23px;
+        font-size: 17px;
+        line-height: 20px;
     }
 
 
@@ -1173,19 +1173,6 @@
     .product_info-form {
         margin-bottom: 20px;
     }
-    .image_tips .image .info1 {
-        top: 41%;
-        left: calc(21.5% + 89px);
-    }
-    .image_tips .image .info3 {
-        top: 42%;
-        left: calc(40% + -20px);
-    }
-    .image_tips .image .info2 {
-        top: 44%;
-        right: calc(12% + 114px);
-        left: auto;
-    }
     .order_block .form .field {
         margin-bottom: 15px;
         height: 53px;
@@ -1249,5 +1236,29 @@
     .checkout_info .form .submit_btn {
         margin-left: 0;
     }
+    .quiz_poll .step .links {
+        flex-direction: column;
+    }
+    .quiz_poll .step .links > * {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .contacts_block .map:after {
+        height: 165px;
+    }
+    .quiz_poll .step .form {
+        flex-direction: column;
+    }
+    .quiz_poll .step .links > * {
+        margin-left: 0;
+    }
+    .quiz_poll .success .icon {
+        width: 50px;
+        height: 50px;
+        margin-right: 17px;
+        padding: 8px;    
+    }
+    
+
 
 }

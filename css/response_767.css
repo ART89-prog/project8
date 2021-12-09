@@ -76,7 +76,7 @@
     .mob_header
     {
         margin-bottom: 0px;
-        padding: 0;
+        padding: 20px 0 0 0;
     }
 
 
@@ -743,7 +743,7 @@
 
     .big_boss_quote .img
     {
-        margin: 0px auto 0;
+        margin: 0px auto 15px;
         order: -1;
         height: 320px;
         width: 100%;
@@ -752,8 +752,11 @@
         flex-direction: column;
     }
 
-    .big_boss_quote .info:before, .big_boss_quote .img:before{
+    .big_boss_quote .info:before {
         display: none;
+    }
+    .big_boss_quote .img:before{
+        height: 300px;
     }
     .video_reviews .slider
     {
@@ -1345,7 +1348,8 @@
     }
 
     .director_letter .img:before{
-        display: none;
+        width: 420px;
+        height: 350px;
     }
 
 
@@ -1418,6 +1422,7 @@
     }
     .quiz_poll .img {
         width: 100%;
+        order: 1;
     }
     .works .owl-item.active.center {
         transform: scale(1);
@@ -1451,7 +1456,9 @@
         left: -40px;
     }
     .how_we_work .img::before {
-        display: none;
+        width: 313px;
+        height: 301px;
+        z-index: 0;
     }
     .services_top {
         flex-direction: column;
@@ -1529,6 +1536,12 @@
     {
         width: calc(33.333% - 20px);
         margin-left: 20px;
+    }
+    .quiz_poll .step .form {
+        flex-direction: row;
+    }
+    .quiz_poll .step .links {
+        margin-top: 0px;
     }
 
 }
