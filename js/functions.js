@@ -166,7 +166,13 @@ $(function(){
 
 
 	// Моб. версия
-	if ($(window).width() < 360) $('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
+	fiestResize = false
+
+	if ($(window).width() < 360) {
+		$('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
+
+		fiestResize = true
+	}
 
 
 	// Моб. меню
@@ -307,9 +313,15 @@ var supportsCssVars = function() {
     return support
 }
 
-$(window).resize(() => {
-// Моб. версия
-    $('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1')
 
-    if ($(window).width() < 360) $('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
+$(window).resize(() => {
+	// Моб. версия
+	if (!fiestResize) {
+		$('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1')
+		if ($(window).width() < 360) $('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
+
+		fiestResize = true
+	} else {
+		fiestResize = false
+	}
 })

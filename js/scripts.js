@@ -291,12 +291,16 @@ $(function(){
 	            items: 2,
 	            margin: 0
 	        },
+			480:{
+	            items: 3,
+	            margin: 0
+	        },
 	        768:{
 	            items: 4,
 	            margin: 0
 	        },
 	        1024:{
-	            items: 4,
+	            items: 5,
 	            margin: 0
 	        },
 	        1200:{

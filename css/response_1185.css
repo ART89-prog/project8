@@ -975,7 +975,7 @@
     }
 
     .three_photo .block_head{
-        width:380px;
+        width:310px;
     }
 
 
@@ -1050,6 +1050,18 @@
         width: 280px;
         height: 241px;
     }
-    
+    .soc_block.soc_insta .widget:after {
+        height: 400px;
+    }
+    .before_after .item::before {
+        height: 580px;
+    }
+    .three_photo .photo::before {
+        width: 470px;
+        height: 546px;
+        top: -32px;
+        right: -60px;
+    }
+
 
 }

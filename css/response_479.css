@@ -1155,7 +1155,7 @@
         align-items: center;
     }
     .product_info-slider {
-        width: 320px;
+        width: 100%;
     }
     #sync1.owl-theme .owl-prev {
         left: 45px;
@@ -1306,6 +1306,11 @@
     }
     .upload .cont {
         padding: 20px;
+    }
+    .three_photo .photo::before {
+        height: 219px;
+        width: 328px;
+        right: -16px;
     }
 
 }
