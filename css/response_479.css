@@ -978,11 +978,6 @@
     {
         flex-direction: column;
     }
-    .team .item .foto + div
-    {
-        margin-top: 20px;
-        padding: 20px;
-    }
 
     .products.block.bg
     {
@@ -994,15 +989,19 @@
     .gallery2 .flex > div
     {
         max-width: 100%;
-
-        flex: 0 0 100%;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .gallery2 .flex {
+        margin-left: 0;
+        margin-bottom: -20px;
     }
 
 
     .advantages .item:nth-child(2n):before
     {
         left: 10px;
-
         width: calc(100% - 50px);
     }
     .advantages .item:nth-child(2n):after
@@ -1229,6 +1228,7 @@
     }
     .before_after .item::before {
         height: 282px;
+        width: 300px;
     }
     .checkout_info .form .submit {
         flex-direction: column;
@@ -1258,7 +1258,32 @@
         margin-right: 17px;
         padding: 8px;    
     }
-    
-
+    .advantages .item {
+        padding: 15px;
+    }
+    .team .item {
+        padding: 15px;
+    }
+    .video_reviews .info {
+        padding: 15px;
+    }
+    .documents_wrap {
+        padding: 20px;
+    }
+    .director_letter .info {
+        padding: 22px;
+    }
+    .soc_block .soc_link {
+        margin-top: 0;
+    }
+    .quiz_poll .info {
+        padding: 17px;
+    }
+    .products .product .info {
+        padding: 17px;
+    }
+    .image_tips .image .info {
+        padding: 18px 18px 5px;
+    }
 
 }
