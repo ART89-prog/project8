@@ -1268,7 +1268,7 @@
         padding: 15px;
     }
     .documents_wrap {
-        padding: 20px;
+        padding: 20px 20px 0;
     }
     .director_letter .info {
         padding: 22px;
@@ -1284,6 +1284,28 @@
     }
     .image_tips .image .info {
         padding: 18px 18px 5px;
+    }
+    .advantages .item .icon {
+        margin-bottom: 0px;
+    }
+    .advantages .item .name {
+        margin-bottom: 10px;
+    }
+    .articles .article .info {
+        padding: 17px;
+    }
+    .contacts_block .info .val {
+        margin-top: 0;
+    }
+    .email, .phone {
+        margin-bottom: 30px;
+    }
+    .faq .item .title i {
+        width: 45px;
+        height: 45px;
+    }
+    .upload .cont {
+        padding: 20px;
     }
 
 }
