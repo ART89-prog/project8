@@ -1505,6 +1505,12 @@
         width: 440px;
         height: 440px;
     }
+    .first_section2.block:after {
+        width: 146%;
+        height: 147%;
+        top: -56%;
+        left: -26%;
+    }
     .first_section2 .info .title {
         font-size: 33px;
         line-height: 36px;

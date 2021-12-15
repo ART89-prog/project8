@@ -2137,11 +2137,23 @@ aside > *:last-child
 
 
 .first_section2.block {
-    background: url(../images/tmp/first_section_img2.svg) !important;
     text-align: end;
     padding: 0;
-    background-repeat: no-repeat !important;
-    background-position: top center !important;
+    position: relative;
+    z-index: 1;
+    background: none;
+}
+.first_section2.block:after {
+    content: "";
+    position: absolute;
+    border-radius: 0 0 0 100%;
+    width: 146%;
+    height: 146%;
+    display: block;
+    top: -43%;
+    background: var(--main_color2);
+    z-index: -1;
+    left: 8%;
 }
 .first_section2 .cont {
     display: flex;
