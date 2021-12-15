@@ -1895,13 +1895,21 @@
     .first_section2 .info {
         background: none;
         width: calc(100% - 372px);
-        padding-top: 40px;
-        padding-bottom: 90px;
+        padding-top: 85px;
+        padding-bottom: 185px;
     }
     .first_section2 .img {
-        width: 618px;
-        height: 490px;
-        margin-top: 0;
+        width: 420px;
+        height: 420px;
+        border: 20px solid var(--main_color4);
+    }
+    .first_section2 .img::before {
+        width: 460px;
+        height: 460px;
+    }
+    .first_section2 .img::after {
+        width: 500px;
+        height: 500px;
     }
     .first_section2 .info .desc {
         max-width: 100%;

@@ -1224,7 +1224,20 @@
         font-size: 15px;
     }
     .first_section2 .img {
-        margin-left: -295px;
+        width: 280px;
+        height: 280px;
+        border: 10px solid var(--main_color4);
+        margin-top: -210px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .first_section2 .img::before {
+        width: 300px;
+        height: 300px;
+    }
+    .first_section2 .img::after {
+        width: 320px;
+        height: 320px;
     }
     .before_after .item::before {
         height: 282px;
