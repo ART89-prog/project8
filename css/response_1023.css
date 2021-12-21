@@ -158,9 +158,6 @@
     .mob_header
     {
         display: block;
-        background: #fff;
-        position: relative;
-        z-index: 2;
     }
 
 
@@ -1925,6 +1922,9 @@
     .products_category .title br {
         display: block;
     }
+    .main_slider .customNextBtn {
+        margin-right: -4px;
+    }
     .content_flex .title br {
         display: block;
     }
@@ -1941,7 +1941,6 @@
     .first_section2 .img {
         width: 420px;
         height: 420px;
-        border: 20px solid var(--main_color4);
     }
     .first_section2 .img::before {
         width: 460px;

@@ -2622,10 +2622,13 @@ aside > *:last-child
     margin-left: -58px;
 }
 .main_slider .customNextBtn {
-    margin-right: -26px;
+    margin-right: -18px;
 }
 .main_slider2 {
     background: var(--bg);
+}
+.main_slider3 .cont {
+    padding-left: 100px;
 }
 .main_slider2 .cont
 {

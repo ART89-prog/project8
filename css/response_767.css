@@ -1481,6 +1481,9 @@
         padding-left: 60px;
         padding-right: 60px;
     }
+    .main_slider .customNextBtn {
+        margin-right: -18px;
+    }
     .first_section2 .cont {
         flex-direction: column-reverse;
     }
@@ -1488,15 +1491,15 @@
         background: none;
         width: 100%;
         padding-top: 40px;
-        padding-bottom: 245px;
+        padding-bottom: 160px;
+        padding-right: 115px;
     }
     .first_section2 .img {
         width: 380px;
         height: 380px;
-        border: 15px solid var(--main_color4);
-        margin-top: -200px;
         margin-left: 0px;
-        margin-bottom: 55px;
+        margin-bottom: 0px;
+        margin-top: 25px;
     }
     .first_section2 .img::before {
         width: 410px;
@@ -1505,12 +1508,6 @@
     .first_section2 .img::after {
         width: 440px;
         height: 440px;
-    }
-    .first_section2.block:after {
-        width: 146%;
-        height: 147%;
-        top: -56%;
-        left: -26%;
     }
     .first_section2 .info .title {
         font-size: 33px;
