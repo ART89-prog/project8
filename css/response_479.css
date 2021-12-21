@@ -1325,5 +1325,8 @@
         width: 328px;
         right: -16px;
     }
+    .article_info .head {
+        margin-bottom: 15px;
+    }
 
 }

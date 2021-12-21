@@ -81,7 +81,8 @@
 
     cursor: pointer;
     text-indent: -9999px;
-    background: #D8A83A;
+    background: var(--main_color4);
+    border-radius: 3px;
 }
 
 

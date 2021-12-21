@@ -34,7 +34,23 @@
     .block_head .title
     {
         line-height: 38px;
+        margin-bottom: 0;
+        padding-left: 70px;
     }   
+    .block_head .desc {
+        padding-left: 70px;
+    }
+    .advantages .block_head .desc,
+    .services .block_head .desc,
+    .works .block_head .desc,
+    .reviews .block_head .desc,
+    .articles .block_head .desc,
+    .team .block_head .desc,
+    .contacts_block .block_head .desc,
+    .video_reviews .block_head .desc,
+    .prices .block_head .desc {
+        padding-left: 70px;
+    }
     .block_head .title:before{
         width: 50px;        
         top: 18px;
@@ -179,6 +195,7 @@
         justify-content: center;
         align-items: center;
         background: #1C403A;
+        padding: 0 20px;
     }
     header .cont.flex .socials {
         margin-left: 0;
@@ -711,7 +728,8 @@
     {
         line-height: 24px;
         width: 100%;
-        padding: 60px;
+        padding: 30px;
+        margin-left: 0;
     }
 
     .first_section .info .title
@@ -719,7 +737,7 @@
         font-size: 32px;
         line-height: 36px;
         max-width: 520px;
-        padding-bottom: 25px;
+        padding-bottom: 0px;
     }
 
     .first_section .info .desc
@@ -1576,13 +1594,14 @@
     {
         margin-top: 15px;
     }
-    .advantages .item .inner,
-    .services .service .inner
-    {
-
+    .advantages .flex {
+        margin-bottom: -30px;
+        margin-left: -30px;
     }
-
-    .services .service .info{
+    .advantages .flex > * {
+        width: calc(100%/2 - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
     }
 
     .stock_finish .info
@@ -1663,13 +1682,14 @@
         color:#fff;
     }
 
-
-
-
-
-    .advantages .flex > * {
-        width: calc(50% - 21px);
+    .first_section .img::after {
+        display: none;
     }
+    .first_section .img::before {
+        display: none;
+    }
+
+
     .contacts_block .info2 {
         flex-direction: column;
     }

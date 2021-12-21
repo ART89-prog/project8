@@ -238,7 +238,7 @@
 
     .article_info .head .info
     {
-        width: calc(100% - 180px);
+        width: calc(100% - 190px);
         padding-bottom: 0px;
     }
 
@@ -260,8 +260,19 @@
         font-size: 15px;
         line-height: 23px;
     }
-
-
+    .article_info .back_link {
+        margin-bottom: 8px;
+    }
+    .article_info .head .thumb {
+        width: 167px;
+        height: 167px;
+    }
+    .text_block-top {
+        display: none;
+    }
+    .text_block-bottom {
+        display: block !important;
+    }
 
     .share
     {
@@ -361,16 +372,6 @@
     {
         font-size: 26px;
         line-height: 32px;
-    }
-
-    .cart_info .cart_total .checkout_link
-    {
-        line-height: 45px;
-
-        min-width: 200px;
-        height: 45px;
-        margin-left: 20px;
-        padding: 0 30px;
     }
 
 

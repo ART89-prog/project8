@@ -299,8 +299,8 @@
     display: block;
     overflow: visible;
 
-    width: 70px;
-    height: 70px;
+    width: 66px;
+    height: 66px;
 
     cursor: pointer;
     transition: opacity .2s linear;
@@ -383,7 +383,7 @@
 
 .main_slider .owl-dots
 {
-    bottom: 103px;
+    bottom: 50px;
 }
 
 

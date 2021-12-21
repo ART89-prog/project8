@@ -1,56 +1,52 @@
 $(function(){
 	// Основной слайдер на главной
-	$('.main_slider .slider').owlCarousel({
+	var owl16 = $('.main_slider .slider').owlCarousel({
 		items: 1,
 		margin: 0,
-		nav: true,
+		nav: false,
 		dots: true,
-		navText: [
-			'<svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.22207 9.56434L10.2265 15.5688C10.8771 16.2193 10.8771 17.2753 10.2265 17.9259C9.57592 18.5765 8.51992 18.5765 7.86935 17.9259L0.61878 10.6753C0.00435182 10.0609 0.00435182 9.0662 0.61878 8.45334L7.86935 1.20277C8.51992 0.552201 9.57592 0.552201 10.2265 1.20277C10.8771 1.85334 10.8771 2.90934 10.2265 3.55992L4.22207 9.56434Z" fill="white"/></svg>',
-	        '<svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.77793 9.56434L0.773505 15.5688C0.122933 16.2193 0.122933 17.2753 0.773505 17.9259C1.42408 18.5765 2.48008 18.5765 3.13065 17.9259L10.3812 10.6753C10.9956 10.0609 10.9956 9.0662 10.3812 8.45334L3.13065 1.20277C2.48008 0.552201 1.42408 0.552201 0.773505 1.20277C0.122933 1.85334 0.122933 2.90934 0.773505 3.55992L6.77793 9.56434Z" fill="white"/></svg>'
-	        
-	    ],
 		loop: true,
 		smartSpeed: 750,
 		autoplay: true,
-		autoplayTimeout: 5000,
-		
+		autoplayTimeout: 5000		
 	})
+
+	// Custom Button
+	$('.customNextBtn').click(function() {
+		owl16.trigger('next.owl.carousel');
+	});
+	$('.customPreviousBtn').click(function() {
+		owl16.trigger('prev.owl.carousel');
+	});
+
+	$('.owl-dot-custom').click(function () {
+		owl16.trigger('to.owl.carousel', [$(this).index(), 300]);
+	});
 
 
 	// Основной слайдер на главной
-	 var owl = $('.main_slider2 .slider').owlCarousel({
+	 var owl15 = $('.main_slider2 .slider').owlCarousel({
 		items: 1,
 		margin: 0,
-		nav: true,
+		nav: false,
 		dots: true,
-	navText: [
-		'<svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.22207 9.56434L10.2265 15.5688C10.8771 16.2193 10.8771 17.2753 10.2265 17.9259C9.57592 18.5765 8.51992 18.5765 7.86935 17.9259L0.61878 10.6753C0.00435182 10.0609 0.00435182 9.0662 0.61878 8.45334L7.86935 1.20277C8.51992 0.552201 9.57592 0.552201 10.2265 1.20277C10.8771 1.85334 10.8771 2.90934 10.2265 3.55992L4.22207 9.56434Z" fill="white"/></svg>',
-		'<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.64816 7.97029L0.644465 12.974C0.102323 13.5161 0.102323 14.3961 0.644465 14.9383C1.18661 15.4804 2.06661 15.4804 2.60875 14.9383L8.65089 8.89612C9.16292 8.3841 9.16292 7.55517 8.65089 7.04445L2.60875 1.00231C2.06661 0.460167 1.18661 0.460167 0.644465 1.00231C0.102323 1.54445 0.102323 2.42445 0.644465 2.9666L5.64816 7.97029Z" fill="#235049"/></svg>'        
-	    ],
 		loop: true,
 		smartSpeed: 750,
 		autoplay: true,
-		autoplayTimeout: 5000,
-		onInitialized: function(event){
-			setTimeout(function(){
-				let dotsOffset = $(event.target).find('.owl-next').offset()
-
-				$(event.target).find('.owl-nav button.owl-prev').css(
-					'left', (dotsOffset.left - 10)
-				)
-			}, 100)
-		},
-		onResized: function(event){
-			setTimeout(function(){
-				let dotsOffset = $(event.target).find('.owl-next').offset()
-
-				$(event.target).find('.owl-nav button.owl-prev').css(
-					'left', (dotsOffset.left - 10)
-				)
-			}, 100)
-		}
+		autoplayTimeout: 5000
 	})
+
+		// Custom Button
+		$('.customNextBtn').click(function() {
+		owl15.trigger('next.owl.carousel');
+	});
+	$('.customPreviousBtn').click(function() {
+		owl15.trigger('prev.owl.carousel');
+	});
+
+	$('.owl-dot-custom').click(function () {
+		owl15.trigger('to.owl.carousel', [$(this).index(), 300]);
+	});
 
 
 	// Основной слайдер на главной
@@ -82,7 +78,7 @@ $(function(){
 
 	// Отзывы
 	var owl2 =$('.reviews .slider').owlCarousel({
-		items: 3,
+		items: 2,
 		margin: 26,
 		nav: false,
 		dotsEach : true,
@@ -95,15 +91,15 @@ $(function(){
 	            margin: 26
 	        },
 	        768:{
-	            items: 2,
+	            items: 1,
 	            margin: 26
 	        },
 	        1024:{
-	            items: 3,
+	            items: 2,
 	            margin: 26
 	        },
 	        1200:{
-	            items: 3,
+	            items: 2,
 	            margin: 26
 	        }
 		},	
@@ -120,53 +116,12 @@ $(function(){
 	});
 
 
-	// Услуги
-	
-	var owl3 =$('.services .slider').owlCarousel({
-		items: 2,       
-		margin: 20,
-		nav: false,
-		dotsEach: true,
-		dots: false,
-		loop: true,
-		smartSpeed: 750,
-		responsive: {
-			0:{
-				items: 1,
-				margin: 20
-			},
-			480:{
-				items: 1,
-				margin: 20
-			},
-			768:{
-				items: 2,
-				margin: 20
-			},
-			1024:{
-				items: 3,
-				margin: 20
-			},
-			1200:{
-				items: 3,
-				margin: 20
-			}
-		}		
-	})
-
-	$(".next").click(function(){
-		owl3.trigger("next.owl.carousel");
-	});
-	$(".prev").click(function(){
-		owl3.trigger("prev.owl.carousel");
-	});
-
 
 	// Работы
 
 	var owl4 =$('.works .slider').owlCarousel({
 		items: 3,       
-		margin: 10,
+		margin: 20,
 		nav: false,
 		dotsEach: true,
 		dots: false,
@@ -203,12 +158,12 @@ $(function(){
 
 	// Акции
 	var owl5 =$('.stocks .slider').owlCarousel({
-		items: 1,
+		items: 3,
 		nav: false,
 		dots: false,	
 		dotsEach : true,
 		loop: true,
-		margin: 26,
+		margin: 51,
 		smartSpeed: 750,
 		responsive: {
 			0:{
@@ -225,7 +180,7 @@ $(function(){
 			},
 			1200:{
 				items: 3,
-				margin: 26
+				margin: 51
 			}
 		},
 		
@@ -242,7 +197,7 @@ $(function(){
 
 	// Видео отзывы
 	var owl6 =$('.video_reviews .slider').owlCarousel({
-		items: 2,
+		items: 3,
 		nav: false,
 		dots: false,
 		loop: true,
@@ -258,11 +213,11 @@ $(function(){
 				margin: 51
 			},
 			1024:{
-				items: 2,
+				items: 3,
 				margin: 51
 			},
 			1200:{
-				items: 2,
+				items: 3,
 				margin: 51
 			}
 		},		
@@ -277,50 +232,10 @@ $(function(){
 
 
 
-	// Документы
-	var owl7 =$('.documents .slider').owlCarousel({
-		items: 4,
-		nav: false,
-		dots: false,
-		dotsEach : false,
-		margin: 10,
-		loop: true,
-		smartSpeed: 750,
-		responsive: {
-	        0:{
-	            items: 2,
-	            margin: 0
-	        },
-			480:{
-	            items: 3,
-	            margin: 0
-	        },
-	        768:{
-	            items: 4,
-	            margin: 0
-	        },
-	        1024:{
-	            items: 5,
-	            margin: 0
-	        },
-	        1200:{
-	            items: 4,
-	            margin: 0
-	        }
-		}
-	})
-
-	$(".next").click(function(){
-		owl7.trigger("next.owl.carousel");
-	});
-	$(".prev").click(function(){
-		owl7.trigger("prev.owl.carousel");
-	});
-
 
 	// Сотрудники
 	var owl8=$('.team .slider').owlCarousel({
-		items: 2,
+		items: 3,
 		margin: 26,
 		nav: false,
 		dotsEach : true,
@@ -338,11 +253,11 @@ $(function(){
 	            margin: 26
 	        },
 	        1024:{
-	            items: 2,
+	            items: 3,
 	            margin: 26
 	        },
 	        1200:{
-	            items: 2,
+	            items: 3,
 	            margin: 26
 	        }
 		},
