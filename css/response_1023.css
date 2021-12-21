@@ -55,7 +55,24 @@
         width: 50px;        
         top: 18px;
     }
-
+    .advantages .inner {
+        margin-top: 0px;
+    }
+    .advantages .item .name {
+        margin-top: 10px;
+    }
+    .order_block .form {
+        padding: 30px;
+    }
+    .services_items {
+        margin-left: -30px;
+        margin-bottom: -30px;
+    }
+    .services_items > * {
+        width: calc(100%/3 - 30px);
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
     .block_head .title:after
     {
         top: 25px;
